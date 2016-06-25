@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TableHeadView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPT-rf-UPy">
+                    <rect key="frame" x="67" y="103" width="465" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nickname" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vri-TI-Cmh">
+                    <rect key="frame" x="67" y="126" width="465" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXg-fo-H1o">
+                    <rect key="frame" x="558" y="119" width="20" height="22"/>
+                    <state key="normal" image="share_icon.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="shareAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="32F-O0-l8w"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tx01" translatesAutoresizingMaskIntoConstraints="NO" id="OuO-nx-Q1f">
+                    <rect key="frame" x="265" y="25" width="70" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="7sv-ZS-OaE"/>
+                        <constraint firstAttribute="width" constant="70" id="HeY-I5-bsf"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.24414565638818264" green="0.75613287417297048" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="KXg-fo-H1o" secondAttribute="trailing" constant="22" id="28F-IV-ihO"/>
+                <constraint firstAttribute="bottom" secondItem="KXg-fo-H1o" secondAttribute="bottom" constant="17" id="3gi-pW-uKh"/>
+                <constraint firstItem="vri-TI-Cmh" firstAttribute="top" secondItem="qPT-rf-UPy" secondAttribute="bottom" constant="2.5" id="FeL-qh-H58"/>
+                <constraint firstAttribute="centerX" secondItem="OuO-nx-Q1f" secondAttribute="centerX" id="Hlu-bX-W8m"/>
+                <constraint firstAttribute="trailing" secondItem="vri-TI-Cmh" secondAttribute="trailing" constant="68" id="LlH-wH-mS9"/>
+                <constraint firstAttribute="trailing" secondItem="qPT-rf-UPy" secondAttribute="trailing" constant="68" id="Vjm-7M-vmr"/>
+                <constraint firstItem="OuO-nx-Q1f" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="25" id="fHT-Kq-JSw"/>
+                <constraint firstItem="vri-TI-Cmh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="67" id="o5n-9s-rGD"/>
+                <constraint firstItem="qPT-rf-UPy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="67" id="w3q-Fa-Gzh"/>
+                <constraint firstItem="qPT-rf-UPy" firstAttribute="top" secondItem="OuO-nx-Q1f" secondAttribute="bottom" constant="8" id="yGI-Rh-6bd"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="nickImg" destination="OuO-nx-Q1f" id="L5W-oP-ZPy"/>
+                <outlet property="nickName" destination="vri-TI-Cmh" id="GrQ-Us-Zt2"/>
+                <outlet property="userName" destination="qPT-rf-UPy" id="PAt-ox-Q0W"/>
+            </connections>
+            <point key="canvasLocation" x="86" y="262"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="share_icon.png" width="20" height="20"/>
+        <image name="tx01" width="15" height="15"/>
+    </resources>
+</document>

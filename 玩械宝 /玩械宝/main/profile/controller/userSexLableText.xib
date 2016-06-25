@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view hidden="YES" contentMode="scaleToFill" id="H2e-FX-Mmt" customClass="userSexLableText">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dj6-hV-nB7">
+                    <rect key="frame" x="87" y="282" width="200" height="40"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FPD-g5-55d">
+                            <rect key="frame" x="66" y="5" width="30" height="30"/>
+                            <state key="normal" title="男">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="selectedSex:" destination="H2e-FX-Mmt" eventType="touchUpInside" id="P4X-Zm-9Gr"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bsZ-aZ-Wqa">
+                            <rect key="frame" x="104" y="5" width="30" height="30"/>
+                            <state key="normal" title="女">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="selectedSex:" destination="H2e-FX-Mmt" eventType="touchUpInside" id="cRv-u4-Nlq"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eMg-xA-zbG">
+                            <rect key="frame" x="100" y="10" width="1" height="20"/>
+                            <color key="backgroundColor" red="0.47058823529411764" green="0.47058823529411764" blue="0.47058823529411764" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="1" id="9G7-Uy-e76"/>
+                                <constraint firstAttribute="height" constant="20" id="fsE-Yx-Ikt"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="FPD-g5-55d" firstAttribute="centerY" secondItem="bsZ-aZ-Wqa" secondAttribute="centerY" id="4Z8-TF-I8d"/>
+                        <constraint firstItem="FPD-g5-55d" firstAttribute="leading" secondItem="dj6-hV-nB7" secondAttribute="leading" constant="66" id="DC1-eK-qdc"/>
+                        <constraint firstAttribute="centerX" secondItem="eMg-xA-zbG" secondAttribute="centerX" id="Eiv-fo-SGT"/>
+                        <constraint firstAttribute="centerY" secondItem="FPD-g5-55d" secondAttribute="centerY" id="FYb-7W-rqq"/>
+                        <constraint firstAttribute="width" constant="200" id="KVw-ek-wcN"/>
+                        <constraint firstAttribute="trailing" secondItem="bsZ-aZ-Wqa" secondAttribute="trailing" constant="66" id="PW5-Vi-6SR"/>
+                        <constraint firstAttribute="centerY" secondItem="eMg-xA-zbG" secondAttribute="centerY" id="T0Z-EV-Mra"/>
+                        <constraint firstAttribute="height" constant="40" id="Xc5-Hg-Uu9"/>
+                        <constraint firstItem="bsZ-aZ-Wqa" firstAttribute="leading" secondItem="FPD-g5-55d" secondAttribute="trailing" constant="8" id="wDh-QR-ywp"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="dj6-hV-nB7" secondAttribute="centerY" constant="31.5" id="QfW-wh-R9W"/>
+                <constraint firstAttribute="centerX" secondItem="dj6-hV-nB7" secondAttribute="centerX" constant="0.5" id="peH-EP-MPn"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <connections>
+                <outlet property="man" destination="FPD-g5-55d" id="uK4-Xm-pmX"/>
+                <outlet property="woman" destination="bsZ-aZ-Wqa" id="CNs-Kv-lyM"/>
+            </connections>
+            <point key="canvasLocation" x="492.5" y="32.5"/>
+        </view>
+    </objects>
+</document>
