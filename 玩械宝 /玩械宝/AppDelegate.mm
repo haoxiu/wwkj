@@ -57,18 +57,21 @@ static BMKMapManager *_mapManager =nil;
     self.token = [[NSUserDefaults standardUserDefaults]objectForKey:@"token"];
     NSString *isOnce = [[NSUserDefaults standardUserDefaults]objectForKey:@"isOnce"];
 
-    if (isOnce.length != 0 && username.length !=0 && _token.length != 0) {
-    
-        MainController *mainVC = [[MainController alloc]init];
-        self.window.rootViewController = mainVC;
-//        [self autoLogin];
-    }
-    else {
-    
-        self.window.rootViewController = [[LaunchViewController alloc]init];
-        [[NSUserDefaults standardUserDefaults]setObject:@"hasUse" forKey:@"isOnce"];
-        
-    }
+    self.window.rootViewController = [[LaunchViewController alloc]init];
+    [[NSUserDefaults standardUserDefaults]setObject:@"hasUse" forKey:@"isOnce"];
+//    if (isOnce.length != 0 && username.length !=0 && _token.length != 0) {
+//        
+//       
+////        MainController *mainVC = [[MainController alloc]init];
+////        self.window.rootViewController = mainVC;
+////        [self autoLogin];
+//    
+//    }else {
+//    
+//        
+//
+//        
+//    }
     //dIpk4dWvdHnuHhguVSegHoVslocM8ZEL
     // 要使用百度地图，请先启动BaiduMapManager
     

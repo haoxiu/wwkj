@@ -10,7 +10,7 @@
 
 #import "BarItem.h"
 #import "AppDelegate.h"
-#import "ProfileViewController.h"
+//#import "ProfileViewController.h"
 #import "LoginViewController.h"
 
 #import "CYNavigationController.h"
@@ -18,7 +18,7 @@
 #import "HomeViewController.h"
 #import "PublicViewController.h"
 
-#include "ProsonViewController.h"
+#import "MyInfoViewController.h"
 
 #define kWidth self.view.frame.size.width
 #define kHeight self.view.frame.size.height
@@ -45,12 +45,12 @@
 // 创建tabbar
 - (void)_createTabbarView {
     
-    NSArray *titles = @[@"首页",@"联系人",@"发布",@"发现",@"个人"];
+    NSArray *titles = @[@"信息",@"通讯录",@"发布",@"发现",@"我的"];
 
 
-    NSArray *images = @[@"新版信息_3.jpg",@"新版信息_05.jpg",@"新版信息0_07.jpg",@"新版信息_09.jpg",@"新版信息_11.png"];
+    NSArray *images = @[@"新版通讯录_123",@"新版我的未登录状态_23",@"新版发布_215",@"新版发布_29",@"新版发布_31"];
 
-    NSArray *selectedImgs = @[@"新版信息0_03.jpg",@"新版信息0_05.jpg",@"新版信息0_07.jpg",@"新版信息0_09.jpg",@"新版信息0_11.png"];
+    NSArray *selectedImgs = @[@"新版信息_14",@"新版通讯录_115",@"新版发布_215",@"新版发现1_133",@"忘记密码_013"];
     float itemWidth = kWidth/titles.count;
     for (int i = 0; i< titles.count; i++) {
         if (i == 2) {
@@ -130,7 +130,7 @@
             {
                 NSString *name = [[NSUserDefaults standardUserDefaults] objectForKey:@"username"];
                 if (name.length != 0) {
-                    rootVC = [[ProsonViewController alloc]init];
+                    rootVC = [[MyInfoViewController alloc]init];
                     cyNav = [[CYNavigationController alloc] initWithRootViewController:rootVC];
                 }
                 else {

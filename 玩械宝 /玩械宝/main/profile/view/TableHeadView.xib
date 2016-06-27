@@ -11,16 +11,9 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="150"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPT-rf-UPy">
-                    <rect key="frame" x="67" y="103" width="465" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nickname" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vri-TI-Cmh">
                     <rect key="frame" x="67" y="126" width="465" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXg-fo-H1o">
@@ -39,8 +32,12 @@
                         <constraint firstAttribute="width" constant="70" id="HeY-I5-bsf"/>
                     </constraints>
                 </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPT-rf-UPy">
+                    <rect key="frame" x="67" y="103" width="465" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
-            <color key="backgroundColor" red="0.24414565638818264" green="0.75613287417297048" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="KXg-fo-H1o" secondAttribute="trailing" constant="22" id="28F-IV-ihO"/>
                 <constraint firstAttribute="bottom" secondItem="KXg-fo-H1o" secondAttribute="bottom" constant="17" id="3gi-pW-uKh"/>
@@ -59,7 +56,7 @@
                 <outlet property="nickName" destination="vri-TI-Cmh" id="GrQ-Us-Zt2"/>
                 <outlet property="userName" destination="qPT-rf-UPy" id="PAt-ox-Q0W"/>
             </connections>
-            <point key="canvasLocation" x="86" y="262"/>
+            <point key="canvasLocation" x="172" y="230"/>
         </view>
     </objects>
     <resources>

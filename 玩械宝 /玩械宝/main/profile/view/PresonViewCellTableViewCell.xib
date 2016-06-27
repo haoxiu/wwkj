@@ -60,7 +60,7 @@
                 <outlet property="img" destination="vsG-6O-V2a" id="Or2-cv-T7N"/>
                 <outlet property="lable" destination="dbr-4f-vyB" id="UMA-Nl-Eau"/>
             </connections>
-            <point key="canvasLocation" x="581" y="209"/>
+            <point key="canvasLocation" x="475" y="205"/>
         </tableViewCell>
     </objects>
 </document>

@@ -126,6 +126,7 @@
         //把 性别、个人签名 添加到偏好设置中持久化
         [[NSUserDefaults standardUserDefaults]setObject:_model.sex forKey:@"sex"];
         [[NSUserDefaults standardUserDefaults]setObject:_model.sign forKey:@"sign"];
+        [[NSUserDefaults standardUserDefaults]setObject:_model.hdimg forKey:@"hdimg"];
         
         [[NSUserDefaults standardUserDefaults]setObject:@"1" forKey:@"isSaved"];
          
@@ -173,6 +174,7 @@
         UIImage *headImg = [UIImage imageWithData:imgData];
         if (headImg != nil) {
             _headImg.image = headImg;
+            
         }
     }
     _nickName.text = [[NSUserDefaults standardUserDefaults] objectForKey:@"nickname"];
@@ -183,7 +185,7 @@
     
     _sign.text =[[NSUserDefaults standardUserDefaults] objectForKey:@"sign"];;
     _sexL.text =[[NSUserDefaults standardUserDefaults] objectForKey:@"sex"];;
-    NSString *imgStr = [[NSUserDefaults standardUserDefaults]objectForKey:@"hdImg"];
+    NSString *imgStr = [[NSUserDefaults standardUserDefaults]objectForKey:@"hdimg"];
     NSData *imgData = [[NSData alloc]initWithBase64EncodedString:imgStr options:NSDataBase64DecodingIgnoreUnknownCharacters];
     UIImage *img = [UIImage imageWithData:imgData];
     _headImg.image = img;
@@ -219,7 +221,6 @@
             [[NSUserDefaults standardUserDefaults] setObject:_sign.text forKey:@"sign"];
             [[NSUserDefaults standardUserDefaults] setObject:_sexL.text forKey:@"sex"];
             [[NSUserDefaults standardUserDefaults] setObject:_nickName.text forKey:@"nickname"];
-            
             [self.navigationController popViewControllerAnimated:YES];
             
         }else {

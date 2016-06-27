@@ -11,7 +11,6 @@
 //#import "DataService.h"
 #import "CycleScrollView.h"
 
-
 @interface LaunchViewController ()<CycleScrollViewDelegate,CycleScrollViewDatasource>{
     
     UIButton *_lastBtn;
