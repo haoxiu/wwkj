@@ -16,15 +16,6 @@
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXg-fo-H1o">
-                    <rect key="frame" x="558" y="119" width="20" height="22"/>
-                    <state key="normal" image="share_icon.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <connections>
-                        <action selector="shareAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="32F-O0-l8w"/>
-                    </connections>
-                </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tx01" translatesAutoresizingMaskIntoConstraints="NO" id="OuO-nx-Q1f">
                     <rect key="frame" x="265" y="25" width="70" height="70"/>
                     <constraints>
@@ -39,8 +30,6 @@
                 </label>
             </subviews>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="KXg-fo-H1o" secondAttribute="trailing" constant="22" id="28F-IV-ihO"/>
-                <constraint firstAttribute="bottom" secondItem="KXg-fo-H1o" secondAttribute="bottom" constant="17" id="3gi-pW-uKh"/>
                 <constraint firstItem="vri-TI-Cmh" firstAttribute="top" secondItem="qPT-rf-UPy" secondAttribute="bottom" constant="2.5" id="FeL-qh-H58"/>
                 <constraint firstAttribute="centerX" secondItem="OuO-nx-Q1f" secondAttribute="centerX" id="Hlu-bX-W8m"/>
                 <constraint firstAttribute="trailing" secondItem="vri-TI-Cmh" secondAttribute="trailing" constant="68" id="LlH-wH-mS9"/>
@@ -56,11 +45,10 @@
                 <outlet property="nickName" destination="vri-TI-Cmh" id="GrQ-Us-Zt2"/>
                 <outlet property="userName" destination="qPT-rf-UPy" id="PAt-ox-Q0W"/>
             </connections>
-            <point key="canvasLocation" x="172" y="230"/>
+            <point key="canvasLocation" x="150" y="224"/>
         </view>
     </objects>
     <resources>
-        <image name="share_icon.png" width="20" height="20"/>
         <image name="tx01" width="15" height="15"/>
     </resources>
 </document>

@@ -40,7 +40,7 @@
                                             <constraint firstAttribute="width" constant="1" id="bS8-qc-YQ8"/>
                                         </constraints>
                                     </view>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about_button.png" translatesAutoresizingMaskIntoConstraints="NO" id="GDO-I6-a4e">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="忘记密码_046.png" translatesAutoresizingMaskIntoConstraints="NO" id="GDO-I6-a4e">
                                         <rect key="frame" x="50" y="14" width="22" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="22" id="6gV-fp-tYX"/>
@@ -78,7 +78,7 @@
                                     <constraint firstItem="yMR-g4-nOT" firstAttribute="top" secondItem="poJ-nh-qq6" secondAttribute="top" id="am8-R9-zfb"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="validation_button.png" translatesAutoresizingMaskIntoConstraints="NO" id="QPX-b4-muo">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="忘记密码_046.png" translatesAutoresizingMaskIntoConstraints="NO" id="QPX-b4-muo">
                                 <rect key="frame" x="51" y="220" width="22" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="22" id="WQM-7S-fFN"/>
@@ -118,7 +118,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="注册">
-                                    <color key="titleColor" red="0.078431372550000003" green="0.80000000000000004" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.24041474460000001" green="0.79793135559999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -133,7 +133,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="忘记密码？">
-                                    <color key="titleColor" red="0.078431372550000003" green="0.80000000000000004" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.24041474460000001" green="0.79793135559999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -189,7 +189,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J3f-fn-6MK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-35.5" y="401.5"/>
+            <point key="canvasLocation" x="-134.5" y="345.5"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="fP7-FJ-KX0">
@@ -257,7 +257,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="validation_button.png" translatesAutoresizingMaskIntoConstraints="NO" id="El8-1v-Qld">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="忘记密码_046.png" translatesAutoresizingMaskIntoConstraints="NO" id="El8-1v-Qld">
                                         <rect key="frame" x="36" y="15" width="22" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="fdx-fj-B6y"/>
@@ -302,7 +302,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="validation_button.png" translatesAutoresizingMaskIntoConstraints="NO" id="mLx-ox-TQ0">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="忘记密码_046.png" translatesAutoresizingMaskIntoConstraints="NO" id="mLx-ox-TQ0">
                                         <rect key="frame" x="50" y="15" width="22" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="22" id="69D-DM-Z2s"/>
@@ -509,7 +509,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="validation_button.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bvu-n2-6Ow">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="忘记密码_046.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bvu-n2-6Ow">
                                         <rect key="frame" x="50" y="15" width="22" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="DMK-91-ign"/>
@@ -584,7 +584,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="validation_button.png" translatesAutoresizingMaskIntoConstraints="NO" id="OjC-0Z-puJ">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="忘记密码_046.png" translatesAutoresizingMaskIntoConstraints="NO" id="OjC-0Z-puJ">
                                         <rect key="frame" x="36" y="15" width="22" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="7E5-mr-TCd"/>
@@ -912,13 +912,6 @@
                                     <action selector="confirmAction:" destination="Ar0-Zq-Sbp" eventType="touchUpInside" id="hSd-yw-z3H"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera_button.png" translatesAutoresizingMaskIntoConstraints="NO" id="vbE-nc-SpK">
-                                <rect key="frame" x="126" y="109" width="20" height="18"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="20" id="35B-dY-egx"/>
-                                    <constraint firstAttribute="height" constant="18" id="Mws-yf-j7P"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMb-bI-oS9">
                                 <rect key="frame" x="151" y="29" width="70" height="70"/>
                                 <constraints>
@@ -932,6 +925,13 @@
                                     <action selector="headImgAction:" destination="Ar0-Zq-Sbp" eventType="touchUpInside" id="uTe-AZ-Eq8"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="camera_button.png" translatesAutoresizingMaskIntoConstraints="NO" id="vbE-nc-SpK">
+                                <rect key="frame" x="123" y="110" width="20" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="35B-dY-egx"/>
+                                    <constraint firstAttribute="height" constant="18" id="Mws-yf-j7P"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -2421,7 +2421,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4qh-19-AKw">
                                                 <rect key="frame" x="0.0" y="486" width="375" height="42"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="C336A7A4-0C77-47AA-BA57-F8955F8EA651" translatesAutoresizingMaskIntoConstraints="NO" id="RGH-1c-3FJ">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4E123E46-4A78-48A8-B3CD-021D2CDF19E0" translatesAutoresizingMaskIntoConstraints="NO" id="RGH-1c-3FJ">
                                                         <rect key="frame" x="25" y="10" width="23" height="22"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="22" id="TsN-4O-SLa"/>
@@ -2570,7 +2570,7 @@
     </scenes>
     <resources>
         <image name="1share_.png" width="32" height="32"/>
-        <image name="C336A7A4-0C77-47AA-BA57-F8955F8EA651" width="18" height="20">
+        <image name="4E123E46-4A78-48A8-B3CD-021D2CDF19E0" width="18" height="20">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBMU
 GR4fJSYsLzU4VSRudWxs1QkKCwwNDg8QERJWTlNTaXplViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBz
@@ -2601,6 +2601,6 @@ Afg
         <image name="share_icon.png" width="20" height="20"/>
         <image name="tx01" width="126" height="126"/>
         <image name="tx01.png" width="126" height="126"/>
-        <image name="validation_button.png" width="18" height="20"/>
+        <image name="忘记密码_046.png" width="60" height="67"/>
     </resources>
 </document>

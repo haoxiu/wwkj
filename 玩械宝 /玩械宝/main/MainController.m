@@ -134,7 +134,7 @@
                     cyNav = [[CYNavigationController alloc] initWithRootViewController:rootVC];
                 }
                 else {
-                    LoginViewController *rootVC = [profileSB instantiateViewControllerWithIdentifier:@"LoginViewController"];
+                    MyInfoViewController *rootVC = [[MyInfoViewController alloc] init];
                     cyNav = [[CYNavigationController alloc] initWithRootViewController:rootVC];
                 }
                 

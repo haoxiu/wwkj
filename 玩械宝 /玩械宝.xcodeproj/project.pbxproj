@@ -554,6 +554,22 @@
 		B6D32B661C06FBEF00E82635 /* PhotoCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D32B601C06FBEF00E82635 /* PhotoCollectionView.m */; };
 		B6D32B671C06FBEF00E82635 /* PhotoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D32B621C06FBEF00E82635 /* PhotoScrollView.m */; };
 		B6D32B681C06FBEF00E82635 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D32B641C06FBEF00E82635 /* PhotoViewController.m */; };
+		C55D86C31D22191E00155E0F /* HeadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C55D86C11D22191E00155E0F /* HeadTableViewCell.m */; };
+		C55D86C41D22191E00155E0F /* HeadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C55D86C21D22191E00155E0F /* HeadTableViewCell.xib */; };
+		C55D86D11D2254C600155E0F /* 新版我的未登录状态_03.png in Resources */ = {isa = PBXBuildFile; fileRef = C55D86C51D2254C500155E0F /* 新版我的未登录状态_03.png */; };
+		C55D86D21D2254C600155E0F /* 新版我的未登录状态_07.png in Resources */ = {isa = PBXBuildFile; fileRef = C55D86C61D2254C500155E0F /* 新版我的未登录状态_07.png */; };
+		C55D86D31D2254C600155E0F /* 新版我的未登录状态_10.png in Resources */ = {isa = PBXBuildFile; fileRef = C55D86C71D2254C500155E0F /* 新版我的未登录状态_10.png */; };
+		C55D86D41D2254C600155E0F /* 新版我的未登录状态_017.png in Resources */ = {isa = PBXBuildFile; fileRef = C55D86C81D2254C500155E0F /* 新版我的未登录状态_017.png */; };
+		C55D86D51D2254C600155E0F /* 新版我的未登录状态_027.png in Resources */ = {isa = PBXBuildFile; fileRef = C55D86C91D2254C500155E0F /* 新版我的未登录状态_027.png */; };
+		C55D86D61D2254C600155E0F /* 新版我的未登录状态_031.png in Resources */ = {isa = PBXBuildFile; fileRef = C55D86CA1D2254C500155E0F /* 新版我的未登录状态_031.png */; };
+		C55D86D71D2254C600155E0F /* 新版我的未登录状态_032.png in Resources */ = {isa = PBXBuildFile; fileRef = C55D86CB1D2254C500155E0F /* 新版我的未登录状态_032.png */; };
+		C55D86D81D2254C600155E0F /* 新版我的未登录状态_073.png in Resources */ = {isa = PBXBuildFile; fileRef = C55D86CC1D2254C500155E0F /* 新版我的未登录状态_073.png */; };
+		C55D86D91D2254C600155E0F /* 新版我的未登录状态_110.png in Resources */ = {isa = PBXBuildFile; fileRef = C55D86CD1D2254C500155E0F /* 新版我的未登录状态_110.png */; };
+		C55D86DA1D2254C600155E0F /* 新版我的未登录状态_130.png in Resources */ = {isa = PBXBuildFile; fileRef = C55D86CE1D2254C500155E0F /* 新版我的未登录状态_130.png */; };
+		C55D86DB1D2254C600155E0F /* 新版我的未登录状态_150.png in Resources */ = {isa = PBXBuildFile; fileRef = C55D86CF1D2254C500155E0F /* 新版我的未登录状态_150.png */; };
+		C55D86DC1D2254C600155E0F /* 新版我的未登录状态_0322.png in Resources */ = {isa = PBXBuildFile; fileRef = C55D86D01D2254C500155E0F /* 新版我的未登录状态_0322.png */; };
+		C55D86E01D22658A00155E0F /* NotLogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C55D86DE1D22658A00155E0F /* NotLogTableViewCell.m */; };
+		C55D86E11D22658A00155E0F /* NotLogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C55D86DF1D22658A00155E0F /* NotLogTableViewCell.xib */; };
 		C55DDAAF1D1B9239002900B8 /* CycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C55DDAAE1D1B9239002900B8 /* CycleScrollView.m */; };
 		C56FE1321D20BF6700A91E7E /* MyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C56FE1311D20BF6700A91E7E /* MyInfoViewController.m */; };
 		C56FE3051D20CBB400A91E7E /* 新版他人详细资料_03.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1371D20CBB400A91E7E /* 新版他人详细资料_03.png */; };
@@ -646,12 +662,6 @@
 		C56FE35C1D20CBB400A91E7E /* 新版聊天记录_07.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE18E1D20CBB400A91E7E /* 新版聊天记录_07.png */; };
 		C56FE35D1D20CBB400A91E7E /* 新版聊天记录_072.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE18F1D20CBB400A91E7E /* 新版聊天记录_072.png */; };
 		C56FE35E1D20CBB400A91E7E /* 新版聊天记录_203.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1901D20CBB400A91E7E /* 新版聊天记录_203.png */; };
-		C56FE35F1D20CBB400A91E7E /* 新版发布_03.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1941D20CBB400A91E7E /* 新版发布_03.png */; };
-		C56FE3601D20CBB400A91E7E /* 新版发布_06.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1951D20CBB400A91E7E /* 新版发布_06.png */; };
-		C56FE3611D20CBB400A91E7E /* 新版发布_08.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1961D20CBB400A91E7E /* 新版发布_08.png */; };
-		C56FE3621D20CBB400A91E7E /* 新版发布_10.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1971D20CBB400A91E7E /* 新版发布_10.png */; };
-		C56FE3631D20CBB400A91E7E /* 新版发布_12.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1981D20CBB400A91E7E /* 新版发布_12.png */; };
-		C56FE3641D20CBB400A91E7E /* 新版发布_14.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1991D20CBB400A91E7E /* 新版发布_14.png */; };
 		C56FE3651D20CBB400A91E7E /* 新版发布_16.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE19A1D20CBB400A91E7E /* 新版发布_16.png */; };
 		C56FE3661D20CBB400A91E7E /* 新版发布_21.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE19B1D20CBB400A91E7E /* 新版发布_21.png */; };
 		C56FE3671D20CBB400A91E7E /* 新版发布_24.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE19C1D20CBB400A91E7E /* 新版发布_24.png */; };
@@ -1811,6 +1821,24 @@
 		B6D32B621C06FBEF00E82635 /* PhotoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoScrollView.m; sourceTree = "<group>"; };
 		B6D32B631C06FBEF00E82635 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
 		B6D32B641C06FBEF00E82635 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		C55D86C01D22191E00155E0F /* HeadTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadTableViewCell.h; sourceTree = "<group>"; };
+		C55D86C11D22191E00155E0F /* HeadTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadTableViewCell.m; sourceTree = "<group>"; };
+		C55D86C21D22191E00155E0F /* HeadTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeadTableViewCell.xib; sourceTree = "<group>"; };
+		C55D86C51D2254C500155E0F /* 新版我的未登录状态_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_03.png"; sourceTree = "<group>"; };
+		C55D86C61D2254C500155E0F /* 新版我的未登录状态_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_07.png"; sourceTree = "<group>"; };
+		C55D86C71D2254C500155E0F /* 新版我的未登录状态_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_10.png"; sourceTree = "<group>"; };
+		C55D86C81D2254C500155E0F /* 新版我的未登录状态_017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_017.png"; sourceTree = "<group>"; };
+		C55D86C91D2254C500155E0F /* 新版我的未登录状态_027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_027.png"; sourceTree = "<group>"; };
+		C55D86CA1D2254C500155E0F /* 新版我的未登录状态_031.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_031.png"; sourceTree = "<group>"; };
+		C55D86CB1D2254C500155E0F /* 新版我的未登录状态_032.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_032.png"; sourceTree = "<group>"; };
+		C55D86CC1D2254C500155E0F /* 新版我的未登录状态_073.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_073.png"; sourceTree = "<group>"; };
+		C55D86CD1D2254C500155E0F /* 新版我的未登录状态_110.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_110.png"; sourceTree = "<group>"; };
+		C55D86CE1D2254C500155E0F /* 新版我的未登录状态_130.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_130.png"; sourceTree = "<group>"; };
+		C55D86CF1D2254C500155E0F /* 新版我的未登录状态_150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_150.png"; sourceTree = "<group>"; };
+		C55D86D01D2254C500155E0F /* 新版我的未登录状态_0322.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_0322.png"; sourceTree = "<group>"; };
+		C55D86DD1D22658900155E0F /* NotLogTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotLogTableViewCell.h; sourceTree = "<group>"; };
+		C55D86DE1D22658A00155E0F /* NotLogTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotLogTableViewCell.m; sourceTree = "<group>"; };
+		C55D86DF1D22658A00155E0F /* NotLogTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotLogTableViewCell.xib; sourceTree = "<group>"; };
 		C55DDAAD1D1B9239002900B8 /* CycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleScrollView.h; sourceTree = "<group>"; };
 		C55DDAAE1D1B9239002900B8 /* CycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleScrollView.m; sourceTree = "<group>"; };
 		C56FE1301D20BF6700A91E7E /* MyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoViewController.h; sourceTree = "<group>"; };
@@ -1905,12 +1933,6 @@
 		C56FE18E1D20CBB400A91E7E /* 新版聊天记录_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版聊天记录_07.png"; sourceTree = "<group>"; };
 		C56FE18F1D20CBB400A91E7E /* 新版聊天记录_072.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版聊天记录_072.png"; sourceTree = "<group>"; };
 		C56FE1901D20CBB400A91E7E /* 新版聊天记录_203.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版聊天记录_203.png"; sourceTree = "<group>"; };
-		C56FE1941D20CBB400A91E7E /* 新版发布_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_03.png"; sourceTree = "<group>"; };
-		C56FE1951D20CBB400A91E7E /* 新版发布_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_06.png"; sourceTree = "<group>"; };
-		C56FE1961D20CBB400A91E7E /* 新版发布_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_08.png"; sourceTree = "<group>"; };
-		C56FE1971D20CBB400A91E7E /* 新版发布_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_10.png"; sourceTree = "<group>"; };
-		C56FE1981D20CBB400A91E7E /* 新版发布_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_12.png"; sourceTree = "<group>"; };
-		C56FE1991D20CBB400A91E7E /* 新版发布_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_14.png"; sourceTree = "<group>"; };
 		C56FE19A1D20CBB400A91E7E /* 新版发布_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_16.png"; sourceTree = "<group>"; };
 		C56FE19B1D20CBB400A91E7E /* 新版发布_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_21.png"; sourceTree = "<group>"; };
 		C56FE19C1D20CBB400A91E7E /* 新版发布_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_24.png"; sourceTree = "<group>"; };
@@ -3318,6 +3340,12 @@
 				B652BB351C93C36200711C2E /* PresonViewCellTableViewCell.h */,
 				B652BB361C93C36200711C2E /* PresonViewCellTableViewCell.m */,
 				B652BB371C93C36200711C2E /* PresonViewCellTableViewCell.xib */,
+				C55D86C01D22191E00155E0F /* HeadTableViewCell.h */,
+				C55D86C11D22191E00155E0F /* HeadTableViewCell.m */,
+				C55D86C21D22191E00155E0F /* HeadTableViewCell.xib */,
+				C55D86DD1D22658900155E0F /* NotLogTableViewCell.h */,
+				C55D86DE1D22658A00155E0F /* NotLogTableViewCell.m */,
+				C55D86DF1D22658A00155E0F /* NotLogTableViewCell.xib */,
 				B652BB3F1C93FC7D00711C2E /* TableHeadView.h */,
 				B652BB401C93FC7D00711C2E /* TableHeadView.m */,
 				B652BB3D1C93D02100711C2E /* TableHeadView.xib */,
@@ -4355,12 +4383,6 @@
 		C56FE1931D20CBB400A91E7E /* 新建文件夹 */ = {
 			isa = PBXGroup;
 			children = (
-				C56FE1941D20CBB400A91E7E /* 新版发布_03.png */,
-				C56FE1951D20CBB400A91E7E /* 新版发布_06.png */,
-				C56FE1961D20CBB400A91E7E /* 新版发布_08.png */,
-				C56FE1971D20CBB400A91E7E /* 新版发布_10.png */,
-				C56FE1981D20CBB400A91E7E /* 新版发布_12.png */,
-				C56FE1991D20CBB400A91E7E /* 新版发布_14.png */,
 				C56FE19A1D20CBB400A91E7E /* 新版发布_16.png */,
 				C56FE19B1D20CBB400A91E7E /* 新版发布_21.png */,
 				C56FE19C1D20CBB400A91E7E /* 新版发布_24.png */,
@@ -4529,6 +4551,18 @@
 		C56FE25F1D20CBB400A91E7E /* 我的 */ = {
 			isa = PBXGroup;
 			children = (
+				C55D86C51D2254C500155E0F /* 新版我的未登录状态_03.png */,
+				C55D86C61D2254C500155E0F /* 新版我的未登录状态_07.png */,
+				C55D86C71D2254C500155E0F /* 新版我的未登录状态_10.png */,
+				C55D86C81D2254C500155E0F /* 新版我的未登录状态_017.png */,
+				C55D86C91D2254C500155E0F /* 新版我的未登录状态_027.png */,
+				C55D86CA1D2254C500155E0F /* 新版我的未登录状态_031.png */,
+				C55D86CB1D2254C500155E0F /* 新版我的未登录状态_032.png */,
+				C55D86CC1D2254C500155E0F /* 新版我的未登录状态_073.png */,
+				C55D86CD1D2254C500155E0F /* 新版我的未登录状态_110.png */,
+				C55D86CE1D2254C500155E0F /* 新版我的未登录状态_130.png */,
+				C55D86CF1D2254C500155E0F /* 新版我的未登录状态_150.png */,
+				C55D86D01D2254C500155E0F /* 新版我的未登录状态_0322.png */,
 				B652B9201C92C97C00711C2E /* right_icon.png */,
 				C56FE2601D20CBB400A91E7E /* images */,
 			);
@@ -4945,7 +4979,6 @@
 				C56FE4731D20CBB400A91E7E /* 新版我的未登录状态_262.png in Resources */,
 				C56FE3681D20CBB400A91E7E /* 新版发布_26.png in Resources */,
 				C56FE4041D20CBB400A91E7E /* 新版发现1_35.png in Resources */,
-				C56FE3631D20CBB400A91E7E /* 新版发布_12.png in Resources */,
 				C56FE3DF1D20CBB400A91E7E /* 新版发现1_110.png in Resources */,
 				C56FE4B41D20CBB400A91E7E /* 新版通讯录_145.png in Resources */,
 				A7BF04D51B3AA98200DEFFBD /* DoPhotoCell.xib in Resources */,
@@ -4974,14 +5007,13 @@
 				C56FE4401D20CBB400A91E7E /* 不看他的照片_05.png in Resources */,
 				B652BAF31C92C97C00711C2E /* loader_button@2x.png in Resources */,
 				B652BAD11C92C97C00711C2E /* personal_select_icon02@3x.png in Resources */,
-				C56FE3611D20CBB400A91E7E /* 新版发布_08.png in Resources */,
 				4E72ED491CE8657A00086E8D /* RongCloud.bundle in Resources */,
 				C56FE3371D20CBB400A91E7E /* 新版添加_013.png in Resources */,
-				C56FE3601D20CBB400A91E7E /* 新版发布_06.png in Resources */,
 				C56FE49B1D20CBB400A91E7E /* 新版他人详细资料2_0632.png in Resources */,
 				C56FE3281D20CBB400A91E7E /* 新版信息_116.png in Resources */,
 				B652BAE51C92C97C00711C2E /* concrete_button@3x.png in Resources */,
 				C56FE4061D20CBB400A91E7E /* 新版发现1_514.png in Resources */,
+				C55D86DB1D2254C600155E0F /* 新版我的未登录状态_150.png in Resources */,
 				C56FE4931D20CBB400A91E7E /* 新版他人详细资料2_013.png in Resources */,
 				C56FE3091D20CBB400A91E7E /* 新版信息_14.png in Resources */,
 				B652BAE91C92C97C00711C2E /* for_rent_button.png in Resources */,
@@ -5046,6 +5078,7 @@
 				F95A35041BBA318D00D4320A /* CollectWithMeTableViewCell.xib in Resources */,
 				C56FE4561D20CBB400A91E7E /* 新版我的未登录状态_031.png in Resources */,
 				5F48D0151BEF622800AC9A4C /* tx01@3x.png in Resources */,
+				C55D86D71D2254C600155E0F /* 新版我的未登录状态_032.png in Resources */,
 				C56FE4661D20CBB400A91E7E /* 新版我的未登录状态_21.png in Resources */,
 				B652BA481C92C97C00711C2E /* share_button@2x.png in Resources */,
 				B652BAD71C92C97C00711C2E /* two_code.png in Resources */,
@@ -5054,6 +5087,7 @@
 				C56FE3E51D20CBB400A91E7E /* 新版发现1_125.png in Resources */,
 				B652BAE11C92C97C00711C2E /* buy_car_button@2x.png in Resources */,
 				C56FE4AE1D20CBB400A91E7E /* 新版通讯录_065.png in Resources */,
+				C55D86D41D2254C600155E0F /* 新版我的未登录状态_017.png in Resources */,
 				B652BB1D1C92C97C00711C2E /* personal_icon@2x.png in Resources */,
 				B652BAED1C92C97C00711C2E /* hands_wanted_button@2x.png in Resources */,
 				B652BAEC1C92C97C00711C2E /* hands_wanted_button.png in Resources */,
@@ -5072,14 +5106,17 @@
 				B652BA781C92C97C00711C2E /* right@2x.png in Resources */,
 				C56FE4901D20CBB400A91E7E /* 新版通讯录_20.png in Resources */,
 				4E18EBDF1CE36FAC00246558 /* LinkManCell.xib in Resources */,
+				C55D86C41D22191E00155E0F /* HeadTableViewCell.xib in Resources */,
 				C56FE3D91D20CBB400A91E7E /* 新版发现1_06.png in Resources */,
 				B652BA581C92C97C00711C2E /* buy_car_button@3x.png in Resources */,
 				C56FE3DC1D20CBB400A91E7E /* 新版发现1_082.png in Resources */,
 				B652BA771C92C97C00711C2E /* right.png in Resources */,
 				C56FE4A61D20CBB400A91E7E /* 新版信息_115.png in Resources */,
 				C56FE4581D20CBB400A91E7E /* 新版我的未登录状态_035.png in Resources */,
+				C55D86D31D2254C600155E0F /* 新版我的未登录状态_10.png in Resources */,
 				B652BACE1C92C97C00711C2E /* personal_select_icon01@3x.png in Resources */,
 				C56FE4941D20CBB400A91E7E /* 新版他人详细资料2_016.png in Resources */,
+				C55D86D81D2254C600155E0F /* 新版我的未登录状态_073.png in Resources */,
 				B652BA2F1C92C97C00711C2E /* hourglass_button.png in Resources */,
 				C56FE3D31D20CBB400A91E7E /* 新版发现11_28.png in Resources */,
 				C56FE4471D20CBB400A91E7E /* 新版我的未登录状态_10.png in Resources */,
@@ -5113,7 +5150,6 @@
 				F9708DB71BC7959100FFF0AF /* RecruitmentTableViewCell.xib in Resources */,
 				C56FE4CD1D20D5BD00A91E7E /* 玩(1).jpg in Resources */,
 				A78B314E1B2ACC4800AD170C /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
-				C56FE3621D20CBB400A91E7E /* 新版发布_10.png in Resources */,
 				C56FE33C1D20CBB400A91E7E /* 新版添加_06.png in Resources */,
 				C56FE3E71D20CBB400A91E7E /* 新版发现1_133.png in Resources */,
 				B652BB2E1C92C97C00711C2E /* share_icon.png in Resources */,
@@ -5121,6 +5157,7 @@
 				B652BADB1C92C97C00711C2E /* big_excavator_button@2x.png in Resources */,
 				C56FE3661D20CBB400A91E7E /* 新版发布_21.png in Resources */,
 				5F48D0211BEF629F00AC9A4C /* return_button.png in Resources */,
+				C55D86DC1D2254C600155E0F /* 新版我的未登录状态_0322.png in Resources */,
 				C56FE3B31D20CBB400A91E7E /* 新版发现1_28.png in Resources */,
 				B652BA791C92C97C00711C2E /* right@3x.png in Resources */,
 				B652BB131C92C97C00711C2E /* index_icon@3x.png in Resources */,
@@ -5218,6 +5255,7 @@
 				B652BA231C92C97C00711C2E /* collection_03.png in Resources */,
 				B652BB111C92C97C00711C2E /* index_icon@2x.png in Resources */,
 				C56FE4921D20CBB400A91E7E /* 新版通讯录新的朋友添加朋友_06.png in Resources */,
+				C55D86D21D2254C600155E0F /* 新版我的未登录状态_07.png in Resources */,
 				C56FE4951D20CBB400A91E7E /* 新版他人详细资料2_018.png in Resources */,
 				C56FE4231D20CBB400A91E7E /* 新版求职默认_134.png in Resources */,
 				C56FE4781D20CBB400A91E7E /* 新版我的相册_03.png in Resources */,
@@ -5252,6 +5290,7 @@
 				C56FE4B21D20CBB400A91E7E /* 新版通讯录_123.png in Resources */,
 				C56FE4AA1D20CBB400A91E7E /* 新版通讯录_031.png in Resources */,
 				4E72ED461CE8657A00086E8D /* RongCloudKit.strings in Resources */,
+				C55D86D11D2254C600155E0F /* 新版我的未登录状态_03.png in Resources */,
 				B6C784D41C9912FF00AFB632 /* logo.png in Resources */,
 				B652BA711C92C97C00711C2E /* rental_button.png in Resources */,
 				B652BA501C92C97C00711C2E /* -.png in Resources */,
@@ -5305,13 +5344,13 @@
 				B652BAEF1C92C97C00711C2E /* job_seekers_button.png in Resources */,
 				B6C784DA1C9922BB00AFB632 /* checkbox_false.png in Resources */,
 				B652BA3F1C92C97C00711C2E /* publi_icon02@2x.png in Resources */,
+				C55D86D51D2254C600155E0F /* 新版我的未登录状态_027.png in Resources */,
 				C56FE39F1D20CBB400A91E7E /* 新版发布出租信息_03.png in Resources */,
 				B652BA1D1C92C97C00711C2E /* camera_button.png in Resources */,
 				B652BA261C92C97C00711C2E /* collection_button01.png in Resources */,
 				B652BB1C1C92C97C00711C2E /* personal_icon.png in Resources */,
 				4E9CFD521D0E830300F7D769 /* CircleFriendsViewControllerCell.xib in Resources */,
 				C56FE4AD1D20CBB400A91E7E /* 新版通讯录_06.png in Resources */,
-				C56FE3641D20CBB400A91E7E /* 新版发布_14.png in Resources */,
 				C56FE4871D20CBB400A91E7E /* 新版他人详细资料2_06.png in Resources */,
 				B652BA311C92C97C00711C2E /* hourglass_button@3x.png in Resources */,
 				C56FE49E1D20CBB400A91E7E /* 新版他人详细资料2_083.png in Resources */,
@@ -5353,6 +5392,7 @@
 				C56FE3161D20CBB400A91E7E /* 新版聊天记录_07.png in Resources */,
 				C56FE3F11D20CBB400A91E7E /* 新版发现1_22.png in Resources */,
 				C56FE32F1D20CBB400A91E7E /* 新版信息_1412.png in Resources */,
+				C55D86D91D2254C600155E0F /* 新版我的未登录状态_110.png in Resources */,
 				C56FE3231D20CBB400A91E7E /* 新版信息_11.png in Resources */,
 				C56FE3E91D20CBB400A91E7E /* 新版发现1_138.png in Resources */,
 				B652BAD01C92C97C00711C2E /* personal_select_icon02@2x.png in Resources */,
@@ -5400,12 +5440,12 @@
 				C56FE37F1D20CBB400A91E7E /* 新版发布_12.png in Resources */,
 				C56FE40E1D20CBB400A91E7E /* 新版朋友圈_11.png in Resources */,
 				C56FE36A1D20CBB400A91E7E /* 新版发布_31.png in Resources */,
+				C55D86E11D22658A00155E0F /* NotLogTableViewCell.xib in Resources */,
 				A72520EF1B4F6EDE000CF39B /* IQKeyboardManager.bundle in Resources */,
 				B652BB031C92C97C00711C2E /* small_excavator_button@3x.png in Resources */,
 				B652BA9F1C92C97C00711C2E /* collection_icon01@2x.png in Resources */,
 				B652BA751C92C97C00711C2E /* rental_button@2x.png in Resources */,
 				C56FE3E21D20CBB400A91E7E /* 新版发现1_120.png in Resources */,
-				C56FE35F1D20CBB400A91E7E /* 新版发布_03.png in Resources */,
 				C56FE3111D20CBB400A91E7E /* 新版聊天_06.png in Resources */,
 				C56FE45B1D20CBB400A91E7E /* 新版我的未登录状态_072.png in Resources */,
 				B6C784CC1C98F55000AFB632 /* publi_icon01@3x.png in Resources */,
@@ -5428,6 +5468,7 @@
 				B652BB121C92C97C00711C2E /* index_icon@2x_2.png in Resources */,
 				B652BAEA1C92C97C00711C2E /* for_rent_button@2x.png in Resources */,
 				C56FE38B1D20CBB400A91E7E /* 新版发布_214.png in Resources */,
+				C55D86DA1D2254C600155E0F /* 新版我的未登录状态_130.png in Resources */,
 				C56FE41A1D20CBB400A91E7E /* 新版求职默认_032.png in Resources */,
 				C56FE3CC1D20CBB400A91E7E /* 新版发现111_30.png in Resources */,
 				B652BABC1C92C97C00711C2E /* contact_icon01.png in Resources */,
@@ -5601,6 +5642,7 @@
 				C56FE3F81D20CBB400A91E7E /* 新版发现1_25.png in Resources */,
 				C56FE3671D20CBB400A91E7E /* 新版发布_24.png in Resources */,
 				C56FE44B1D20CBB400A91E7E /* 新版我的未登录状态_23.png in Resources */,
+				C55D86D61D2254C600155E0F /* 新版我的未登录状态_031.png in Resources */,
 				C56FE3821D20CBB400A91E7E /* 新版发布_1220.png in Resources */,
 				C56FE4891D20CBB400A91E7E /* 新版他人详细资料2_10.png in Resources */,
 				C56FE39A1D20CBB400A91E7E /* 新版发布_311.png in Resources */,
@@ -5731,6 +5773,7 @@
 				A7AF070F1B6708440070B931 /* UIView+WebCacheOperation.m in Sources */,
 				F97F69E11BD7974100DEA012 /* RecruitmentTableViewCellMode.m in Sources */,
 				B6C272B71C7C0C41002814D7 /* CollectionViewCell.m in Sources */,
+				C55D86C31D22191E00155E0F /* HeadTableViewCell.m in Sources */,
 				4E9CFD511D0E830300F7D769 /* CircleFriendsViewControllerCell.m in Sources */,
 				5F1BFA511BEF8C1700C8F85D /* UILabel+AutoZoomLabel.m in Sources */,
 				A7AF07011B6708440070B931 /* NSData+ImageContentType.m in Sources */,
@@ -5743,6 +5786,7 @@
 				A7AA82CC1B296DB20050242A /* AFNetworkReachabilityManager.m in Sources */,
 				F953216E1BCE2FB000804FE3 /* JXJobViewController.m in Sources */,
 				A72520E41B4F6EDE000CF39B /* IQUIView+Hierarchy.m in Sources */,
+				C55D86E01D22658A00155E0F /* NotLogTableViewCell.m in Sources */,
 				B6D32B651C06FBEF00E82635 /* PhotoCell.m in Sources */,
 				A7AA830E1B29940C0050242A /* ChooseView.m in Sources */,
 				A7AF070B1B6708440070B931 /* UIImage+MultiFormat.m in Sources */,

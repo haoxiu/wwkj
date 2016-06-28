@@ -68,7 +68,7 @@
     _registerBtn.backgroundColor =[UIColor clearColor];
     _registerBtn.titleLabel.textColor =[UIColor colorWithRed:87/255.0 green:196/255.0 blue:135/255.0 alpha:1];
     _registerBtn.layer.borderWidth =1.0;
-    _registerBtn.layer.borderColor =[UIColor colorWithRed:87/255.0 green:196/255.0 blue:135/255.0 alpha:1].CGColor;
+    _registerBtn.layer.borderColor =[UIColor colorWithRed:0/255.0 green:191/255.0 blue:255/255.0 alpha:1].CGColor;
     
     _numTF.text = [[NSUserDefaults standardUserDefaults]objectForKey:@"userName"];
     _pwdTF.text = [[NSUserDefaults standardUserDefaults]objectForKey:@"pwd"];
