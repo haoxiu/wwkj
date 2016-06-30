@@ -275,7 +275,6 @@
 		A7FBCB141B32779D001CCD3D /* ZhaoPinModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FBCB131B32779D001CCD3D /* ZhaoPinModel.m */; };
 		A7FBCB171B329B16001CCD3D /* ApplyJobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FBCB161B329B16001CCD3D /* ApplyJobViewController.m */; };
 		B652B6931C8E811800711C2E /* AroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B652B5F11C8E811800711C2E /* AroundViewController.m */; };
-		B652B6941C8E811800711C2E /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B652B5F31C8E811800711C2E /* DiscoveryViewController.m */; };
 		B652B6951C8E811800711C2E /* Discovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B652B5F61C8E811800711C2E /* Discovery.storyboard */; };
 		B652B6961C8E811800711C2E /* DiscoveryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B652B5F81C8E811800711C2E /* DiscoveryViewCell.m */; };
 		B652B6971C8E811800711C2E /* DiscoveryViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B652B5F91C8E811800711C2E /* DiscoveryViewCell.xib */; };
@@ -554,6 +553,15 @@
 		B6D32B661C06FBEF00E82635 /* PhotoCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D32B601C06FBEF00E82635 /* PhotoCollectionView.m */; };
 		B6D32B671C06FBEF00E82635 /* PhotoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D32B621C06FBEF00E82635 /* PhotoScrollView.m */; };
 		B6D32B681C06FBEF00E82635 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D32B641C06FBEF00E82635 /* PhotoViewController.m */; };
+		C547E79E1D235A150074F199 /* 登录.png in Resources */ = {isa = PBXBuildFile; fileRef = C547E79D1D235A150074F199 /* 登录.png */; };
+		C547E7A01D239B270074F199 /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C547E79F1D239B270074F199 /* DiscoveryViewController.m */; };
+		C547E7A71D239D380074F199 /* 新版发布_03.png in Resources */ = {isa = PBXBuildFile; fileRef = C547E7A11D239D380074F199 /* 新版发布_03.png */; };
+		C547E7A81D239D380074F199 /* 新版发布_06.png in Resources */ = {isa = PBXBuildFile; fileRef = C547E7A21D239D380074F199 /* 新版发布_06.png */; };
+		C547E7A91D239D380074F199 /* 新版发布_08.png in Resources */ = {isa = PBXBuildFile; fileRef = C547E7A31D239D380074F199 /* 新版发布_08.png */; };
+		C547E7AA1D239D380074F199 /* 新版发布_10.png in Resources */ = {isa = PBXBuildFile; fileRef = C547E7A41D239D380074F199 /* 新版发布_10.png */; };
+		C547E7AB1D239D380074F199 /* 新版发布_12.png in Resources */ = {isa = PBXBuildFile; fileRef = C547E7A51D239D380074F199 /* 新版发布_12.png */; };
+		C547E7AC1D239D380074F199 /* 新版发布_14.png in Resources */ = {isa = PBXBuildFile; fileRef = C547E7A61D239D380074F199 /* 新版发布_14.png */; };
+		C547E7B21D23BAF90074F199 /* PersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C547E7B11D23BAF90074F199 /* PersonInfoViewController.m */; };
 		C55D86C31D22191E00155E0F /* HeadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C55D86C11D22191E00155E0F /* HeadTableViewCell.m */; };
 		C55D86C41D22191E00155E0F /* HeadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C55D86C21D22191E00155E0F /* HeadTableViewCell.xib */; };
 		C55D86D11D2254C600155E0F /* 新版我的未登录状态_03.png in Resources */ = {isa = PBXBuildFile; fileRef = C55D86C51D2254C500155E0F /* 新版我的未登录状态_03.png */; };
@@ -562,7 +570,6 @@
 		C55D86D41D2254C600155E0F /* 新版我的未登录状态_017.png in Resources */ = {isa = PBXBuildFile; fileRef = C55D86C81D2254C500155E0F /* 新版我的未登录状态_017.png */; };
 		C55D86D51D2254C600155E0F /* 新版我的未登录状态_027.png in Resources */ = {isa = PBXBuildFile; fileRef = C55D86C91D2254C500155E0F /* 新版我的未登录状态_027.png */; };
 		C55D86D61D2254C600155E0F /* 新版我的未登录状态_031.png in Resources */ = {isa = PBXBuildFile; fileRef = C55D86CA1D2254C500155E0F /* 新版我的未登录状态_031.png */; };
-		C55D86D71D2254C600155E0F /* 新版我的未登录状态_032.png in Resources */ = {isa = PBXBuildFile; fileRef = C55D86CB1D2254C500155E0F /* 新版我的未登录状态_032.png */; };
 		C55D86D81D2254C600155E0F /* 新版我的未登录状态_073.png in Resources */ = {isa = PBXBuildFile; fileRef = C55D86CC1D2254C500155E0F /* 新版我的未登录状态_073.png */; };
 		C55D86D91D2254C600155E0F /* 新版我的未登录状态_110.png in Resources */ = {isa = PBXBuildFile; fileRef = C55D86CD1D2254C500155E0F /* 新版我的未登录状态_110.png */; };
 		C55D86DA1D2254C600155E0F /* 新版我的未登录状态_130.png in Resources */ = {isa = PBXBuildFile; fileRef = C55D86CE1D2254C500155E0F /* 新版我的未登录状态_130.png */; };
@@ -674,27 +681,21 @@
 		C56FE36E1D20CBB400A91E7E /* 新版发布_018.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1A31D20CBB400A91E7E /* 新版发布_018.png */; };
 		C56FE36F1D20CBB400A91E7E /* 新版发布_026.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1A41D20CBB400A91E7E /* 新版发布_026.png */; };
 		C56FE3701D20CBB400A91E7E /* 新版发布_028.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1A51D20CBB400A91E7E /* 新版发布_028.png */; };
-		C56FE3711D20CBB400A91E7E /* 新版发布_03.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1A61D20CBB400A91E7E /* 新版发布_03.png */; };
 		C56FE3721D20CBB400A91E7E /* 新版发布_031.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1A71D20CBB400A91E7E /* 新版发布_031.png */; };
 		C56FE3731D20CBB400A91E7E /* 新版发布_033.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1A81D20CBB400A91E7E /* 新版发布_033.png */; };
 		C56FE3741D20CBB400A91E7E /* 新版发布_035.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1A91D20CBB400A91E7E /* 新版发布_035.png */; };
 		C56FE3751D20CBB400A91E7E /* 新版发布_038.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1AA1D20CBB400A91E7E /* 新版发布_038.png */; };
 		C56FE3761D20CBB400A91E7E /* 新版发布_046.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1AB1D20CBB400A91E7E /* 新版发布_046.png */; };
-		C56FE3771D20CBB400A91E7E /* 新版发布_06.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1AC1D20CBB400A91E7E /* 新版发布_06.png */; };
-		C56FE3781D20CBB400A91E7E /* 新版发布_08.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1AD1D20CBB400A91E7E /* 新版发布_08.png */; };
-		C56FE3791D20CBB400A91E7E /* 新版发布_10.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1AE1D20CBB400A91E7E /* 新版发布_10.png */; };
 		C56FE37A1D20CBB400A91E7E /* 新版发布_110.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1AF1D20CBB400A91E7E /* 新版发布_110.png */; };
 		C56FE37B1D20CBB400A91E7E /* 新版发布_1116.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1B01D20CBB400A91E7E /* 新版发布_1116.png */; };
 		C56FE37C1D20CBB400A91E7E /* 新版发布_112.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1B11D20CBB400A91E7E /* 新版发布_112.png */; };
 		C56FE37D1D20CBB400A91E7E /* 新版发布_114.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1B21D20CBB400A91E7E /* 新版发布_114.png */; };
 		C56FE37E1D20CBB400A91E7E /* 新版发布_116.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1B31D20CBB400A91E7E /* 新版发布_116.png */; };
-		C56FE37F1D20CBB400A91E7E /* 新版发布_12.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1B41D20CBB400A91E7E /* 新版发布_12.png */; };
 		C56FE3801D20CBB400A91E7E /* 新版发布_120.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1B51D20CBB400A91E7E /* 新版发布_120.png */; };
 		C56FE3811D20CBB400A91E7E /* 新版发布_122.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1B61D20CBB400A91E7E /* 新版发布_122.png */; };
 		C56FE3821D20CBB400A91E7E /* 新版发布_1220.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1B71D20CBB400A91E7E /* 新版发布_1220.png */; };
 		C56FE3831D20CBB400A91E7E /* 新版发布_124.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1B81D20CBB400A91E7E /* 新版发布_124.png */; };
 		C56FE3841D20CBB400A91E7E /* 新版发布_126.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1B91D20CBB400A91E7E /* 新版发布_126.png */; };
-		C56FE3851D20CBB400A91E7E /* 新版发布_14.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1BA1D20CBB400A91E7E /* 新版发布_14.png */; };
 		C56FE3861D20CBB400A91E7E /* 新版发布_143.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1BB1D20CBB400A91E7E /* 新版发布_143.png */; };
 		C56FE3871D20CBB400A91E7E /* 新版发布_152.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1BC1D20CBB400A91E7E /* 新版发布_152.png */; };
 		C56FE3881D20CBB400A91E7E /* 新版发布_16.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1BD1D20CBB400A91E7E /* 新版发布_16.png */; };
@@ -729,16 +730,9 @@
 		C56FE3A51D20CBB400A91E7E /* 新版世界圈_03.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1DD1D20CBB400A91E7E /* 新版世界圈_03.png */; };
 		C56FE3A61D20CBB400A91E7E /* 新版世界圈_05.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1DE1D20CBB400A91E7E /* 新版世界圈_05.png */; };
 		C56FE3A71D20CBB400A91E7E /* 新版世界圈_07.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1DF1D20CBB400A91E7E /* 新版世界圈_07.png */; };
-		C56FE3A81D20CBB400A91E7E /* 新版发现1_03.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1E01D20CBB400A91E7E /* 新版发现1_03.png */; };
 		C56FE3A91D20CBB400A91E7E /* 新版发现1_06.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1E11D20CBB400A91E7E /* 新版发现1_06.png */; };
 		C56FE3AA1D20CBB400A91E7E /* 新版发现1_08.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1E21D20CBB400A91E7E /* 新版发现1_08.png */; };
 		C56FE3AB1D20CBB400A91E7E /* 新版发现1_10.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1E31D20CBB400A91E7E /* 新版发现1_10.png */; };
-		C56FE3AC1D20CBB400A91E7E /* 新版发现1_12.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1E41D20CBB400A91E7E /* 新版发现1_12.png */; };
-		C56FE3AD1D20CBB400A91E7E /* 新版发现1_14.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1E51D20CBB400A91E7E /* 新版发现1_14.png */; };
-		C56FE3AE1D20CBB400A91E7E /* 新版发现1_16.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1E61D20CBB400A91E7E /* 新版发现1_16.png */; };
-		C56FE3AF1D20CBB400A91E7E /* 新版发现1_18.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1E71D20CBB400A91E7E /* 新版发现1_18.png */; };
-		C56FE3B01D20CBB400A91E7E /* 新版发现1_20.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1E81D20CBB400A91E7E /* 新版发现1_20.png */; };
-		C56FE3B11D20CBB400A91E7E /* 新版发现1_22.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1E91D20CBB400A91E7E /* 新版发现1_22.png */; };
 		C56FE3B21D20CBB400A91E7E /* 新版发现1_25.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1EA1D20CBB400A91E7E /* 新版发现1_25.png */; };
 		C56FE3B31D20CBB400A91E7E /* 新版发现1_28.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1EB1D20CBB400A91E7E /* 新版发现1_28.png */; };
 		C56FE3B41D20CBB400A91E7E /* 新版发现1_30.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE1EC1D20CBB400A91E7E /* 新版发现1_30.png */; };
@@ -903,7 +897,6 @@
 		C56FE4531D20CBB400A91E7E /* 新版我的未登录状态1_21.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE28E1D20CBB400A91E7E /* 新版我的未登录状态1_21.png */; };
 		C56FE4541D20CBB400A91E7E /* 新版我的未登录状态_017.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE28F1D20CBB400A91E7E /* 新版我的未登录状态_017.png */; };
 		C56FE4551D20CBB400A91E7E /* 新版我的未登录状态_03.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE2901D20CBB400A91E7E /* 新版我的未登录状态_03.png */; };
-		C56FE4561D20CBB400A91E7E /* 新版我的未登录状态_031.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE2911D20CBB400A91E7E /* 新版我的未登录状态_031.png */; };
 		C56FE4571D20CBB400A91E7E /* 新版我的未登录状态_032.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE2921D20CBB400A91E7E /* 新版我的未登录状态_032.png */; };
 		C56FE4581D20CBB400A91E7E /* 新版我的未登录状态_035.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE2931D20CBB400A91E7E /* 新版我的未登录状态_035.png */; };
 		C56FE4591D20CBB400A91E7E /* 新版我的未登录状态_037.png in Resources */ = {isa = PBXBuildFile; fileRef = C56FE2941D20CBB400A91E7E /* 新版我的未登录状态_037.png */; };
@@ -1531,7 +1524,6 @@
 		B652B5F01C8E811800711C2E /* AroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AroundViewController.h; path = ../Controller/AroundViewController.h; sourceTree = "<group>"; };
 		B652B5F11C8E811800711C2E /* AroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AroundViewController.m; path = ../Controller/AroundViewController.m; sourceTree = "<group>"; };
 		B652B5F21C8E811800711C2E /* DiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryViewController.h; sourceTree = "<group>"; };
-		B652B5F31C8E811800711C2E /* DiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryViewController.m; sourceTree = "<group>"; };
 		B652B5F61C8E811800711C2E /* Discovery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discovery.storyboard; sourceTree = "<group>"; };
 		B652B5F71C8E811800711C2E /* DiscoveryViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryViewCell.h; sourceTree = "<group>"; };
 		B652B5F81C8E811800711C2E /* DiscoveryViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryViewCell.m; sourceTree = "<group>"; };
@@ -1821,6 +1813,16 @@
 		B6D32B621C06FBEF00E82635 /* PhotoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoScrollView.m; sourceTree = "<group>"; };
 		B6D32B631C06FBEF00E82635 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
 		B6D32B641C06FBEF00E82635 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		C547E79D1D235A150074F199 /* 登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录.png"; sourceTree = "<group>"; };
+		C547E79F1D239B270074F199 /* DiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryViewController.m; sourceTree = "<group>"; };
+		C547E7A11D239D380074F199 /* 新版发布_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_03.png"; sourceTree = "<group>"; };
+		C547E7A21D239D380074F199 /* 新版发布_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_06.png"; sourceTree = "<group>"; };
+		C547E7A31D239D380074F199 /* 新版发布_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_08.png"; sourceTree = "<group>"; };
+		C547E7A41D239D380074F199 /* 新版发布_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_10.png"; sourceTree = "<group>"; };
+		C547E7A51D239D380074F199 /* 新版发布_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_12.png"; sourceTree = "<group>"; };
+		C547E7A61D239D380074F199 /* 新版发布_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_14.png"; sourceTree = "<group>"; };
+		C547E7B01D23BAF90074F199 /* PersonInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonInfoViewController.h; sourceTree = "<group>"; };
+		C547E7B11D23BAF90074F199 /* PersonInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonInfoViewController.m; sourceTree = "<group>"; };
 		C55D86C01D22191E00155E0F /* HeadTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadTableViewCell.h; sourceTree = "<group>"; };
 		C55D86C11D22191E00155E0F /* HeadTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadTableViewCell.m; sourceTree = "<group>"; };
 		C55D86C21D22191E00155E0F /* HeadTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeadTableViewCell.xib; sourceTree = "<group>"; };
@@ -1830,7 +1832,6 @@
 		C55D86C81D2254C500155E0F /* 新版我的未登录状态_017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_017.png"; sourceTree = "<group>"; };
 		C55D86C91D2254C500155E0F /* 新版我的未登录状态_027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_027.png"; sourceTree = "<group>"; };
 		C55D86CA1D2254C500155E0F /* 新版我的未登录状态_031.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_031.png"; sourceTree = "<group>"; };
-		C55D86CB1D2254C500155E0F /* 新版我的未登录状态_032.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_032.png"; sourceTree = "<group>"; };
 		C55D86CC1D2254C500155E0F /* 新版我的未登录状态_073.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_073.png"; sourceTree = "<group>"; };
 		C55D86CD1D2254C500155E0F /* 新版我的未登录状态_110.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_110.png"; sourceTree = "<group>"; };
 		C55D86CE1D2254C500155E0F /* 新版我的未登录状态_130.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_130.png"; sourceTree = "<group>"; };
@@ -1945,27 +1946,21 @@
 		C56FE1A31D20CBB400A91E7E /* 新版发布_018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_018.png"; sourceTree = "<group>"; };
 		C56FE1A41D20CBB400A91E7E /* 新版发布_026.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_026.png"; sourceTree = "<group>"; };
 		C56FE1A51D20CBB400A91E7E /* 新版发布_028.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_028.png"; sourceTree = "<group>"; };
-		C56FE1A61D20CBB400A91E7E /* 新版发布_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_03.png"; sourceTree = "<group>"; };
 		C56FE1A71D20CBB400A91E7E /* 新版发布_031.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_031.png"; sourceTree = "<group>"; };
 		C56FE1A81D20CBB400A91E7E /* 新版发布_033.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_033.png"; sourceTree = "<group>"; };
 		C56FE1A91D20CBB400A91E7E /* 新版发布_035.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_035.png"; sourceTree = "<group>"; };
 		C56FE1AA1D20CBB400A91E7E /* 新版发布_038.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_038.png"; sourceTree = "<group>"; };
 		C56FE1AB1D20CBB400A91E7E /* 新版发布_046.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_046.png"; sourceTree = "<group>"; };
-		C56FE1AC1D20CBB400A91E7E /* 新版发布_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_06.png"; sourceTree = "<group>"; };
-		C56FE1AD1D20CBB400A91E7E /* 新版发布_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_08.png"; sourceTree = "<group>"; };
-		C56FE1AE1D20CBB400A91E7E /* 新版发布_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_10.png"; sourceTree = "<group>"; };
 		C56FE1AF1D20CBB400A91E7E /* 新版发布_110.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_110.png"; sourceTree = "<group>"; };
 		C56FE1B01D20CBB400A91E7E /* 新版发布_1116.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_1116.png"; sourceTree = "<group>"; };
 		C56FE1B11D20CBB400A91E7E /* 新版发布_112.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_112.png"; sourceTree = "<group>"; };
 		C56FE1B21D20CBB400A91E7E /* 新版发布_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_114.png"; sourceTree = "<group>"; };
 		C56FE1B31D20CBB400A91E7E /* 新版发布_116.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_116.png"; sourceTree = "<group>"; };
-		C56FE1B41D20CBB400A91E7E /* 新版发布_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_12.png"; sourceTree = "<group>"; };
 		C56FE1B51D20CBB400A91E7E /* 新版发布_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_120.png"; sourceTree = "<group>"; };
 		C56FE1B61D20CBB400A91E7E /* 新版发布_122.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_122.png"; sourceTree = "<group>"; };
 		C56FE1B71D20CBB400A91E7E /* 新版发布_1220.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_1220.png"; sourceTree = "<group>"; };
 		C56FE1B81D20CBB400A91E7E /* 新版发布_124.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_124.png"; sourceTree = "<group>"; };
 		C56FE1B91D20CBB400A91E7E /* 新版发布_126.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_126.png"; sourceTree = "<group>"; };
-		C56FE1BA1D20CBB400A91E7E /* 新版发布_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_14.png"; sourceTree = "<group>"; };
 		C56FE1BB1D20CBB400A91E7E /* 新版发布_143.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_143.png"; sourceTree = "<group>"; };
 		C56FE1BC1D20CBB400A91E7E /* 新版发布_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_152.png"; sourceTree = "<group>"; };
 		C56FE1BD1D20CBB400A91E7E /* 新版发布_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_16.png"; sourceTree = "<group>"; };
@@ -2000,16 +1995,9 @@
 		C56FE1DD1D20CBB400A91E7E /* 新版世界圈_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版世界圈_03.png"; sourceTree = "<group>"; };
 		C56FE1DE1D20CBB400A91E7E /* 新版世界圈_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版世界圈_05.png"; sourceTree = "<group>"; };
 		C56FE1DF1D20CBB400A91E7E /* 新版世界圈_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版世界圈_07.png"; sourceTree = "<group>"; };
-		C56FE1E01D20CBB400A91E7E /* 新版发现1_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发现1_03.png"; sourceTree = "<group>"; };
 		C56FE1E11D20CBB400A91E7E /* 新版发现1_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发现1_06.png"; sourceTree = "<group>"; };
 		C56FE1E21D20CBB400A91E7E /* 新版发现1_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发现1_08.png"; sourceTree = "<group>"; };
 		C56FE1E31D20CBB400A91E7E /* 新版发现1_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发现1_10.png"; sourceTree = "<group>"; };
-		C56FE1E41D20CBB400A91E7E /* 新版发现1_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发现1_12.png"; sourceTree = "<group>"; };
-		C56FE1E51D20CBB400A91E7E /* 新版发现1_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发现1_14.png"; sourceTree = "<group>"; };
-		C56FE1E61D20CBB400A91E7E /* 新版发现1_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发现1_16.png"; sourceTree = "<group>"; };
-		C56FE1E71D20CBB400A91E7E /* 新版发现1_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发现1_18.png"; sourceTree = "<group>"; };
-		C56FE1E81D20CBB400A91E7E /* 新版发现1_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发现1_20.png"; sourceTree = "<group>"; };
-		C56FE1E91D20CBB400A91E7E /* 新版发现1_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发现1_22.png"; sourceTree = "<group>"; };
 		C56FE1EA1D20CBB400A91E7E /* 新版发现1_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发现1_25.png"; sourceTree = "<group>"; };
 		C56FE1EB1D20CBB400A91E7E /* 新版发现1_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发现1_28.png"; sourceTree = "<group>"; };
 		C56FE1EC1D20CBB400A91E7E /* 新版发现1_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发现1_30.png"; sourceTree = "<group>"; };
@@ -2174,7 +2162,6 @@
 		C56FE28E1D20CBB400A91E7E /* 新版我的未登录状态1_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态1_21.png"; sourceTree = "<group>"; };
 		C56FE28F1D20CBB400A91E7E /* 新版我的未登录状态_017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_017.png"; sourceTree = "<group>"; };
 		C56FE2901D20CBB400A91E7E /* 新版我的未登录状态_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_03.png"; sourceTree = "<group>"; };
-		C56FE2911D20CBB400A91E7E /* 新版我的未登录状态_031.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_031.png"; sourceTree = "<group>"; };
 		C56FE2921D20CBB400A91E7E /* 新版我的未登录状态_032.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_032.png"; sourceTree = "<group>"; };
 		C56FE2931D20CBB400A91E7E /* 新版我的未登录状态_035.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_035.png"; sourceTree = "<group>"; };
 		C56FE2941D20CBB400A91E7E /* 新版我的未登录状态_037.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版我的未登录状态_037.png"; sourceTree = "<group>"; };
@@ -3285,6 +3272,8 @@
 				A7753C9B1B2C190A00CCB74B /* ProfileViewController.m */,
 				A78C5A731B2E7CEF00C826A3 /* UserInfoViewController.h */,
 				A78C5A741B2E7CEF00C826A3 /* UserInfoViewController.m */,
+				C547E7B01D23BAF90074F199 /* PersonInfoViewController.h */,
+				C547E7B11D23BAF90074F199 /* PersonInfoViewController.m */,
 				A7A687D81B607F98001C733D /* AboutViewController.h */,
 				A7A687D91B607F98001C733D /* AboutViewController.m */,
 				A71D970F1B2FB9650051D5D4 /* changePwdViewController.h */,
@@ -3732,7 +3721,7 @@
 			isa = PBXGroup;
 			children = (
 				B652B5F21C8E811800711C2E /* DiscoveryViewController.h */,
-				B652B5F31C8E811800711C2E /* DiscoveryViewController.m */,
+				C547E79F1D239B270074F199 /* DiscoveryViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -4319,32 +4308,32 @@
 		C56FE1921D20CBB400A91E7E /* images */ = {
 			isa = PBXGroup;
 			children = (
+				C547E7A11D239D380074F199 /* 新版发布_03.png */,
+				C547E7A21D239D380074F199 /* 新版发布_06.png */,
+				C547E7A31D239D380074F199 /* 新版发布_08.png */,
+				C547E7A41D239D380074F199 /* 新版发布_10.png */,
+				C547E7A51D239D380074F199 /* 新版发布_12.png */,
+				C547E7A61D239D380074F199 /* 新版发布_14.png */,
 				C56FE1931D20CBB400A91E7E /* 新建文件夹 */,
 				C56FE1A21D20CBB400A91E7E /* 新版发布_016.png */,
 				C56FE1A31D20CBB400A91E7E /* 新版发布_018.png */,
 				C56FE1A41D20CBB400A91E7E /* 新版发布_026.png */,
 				C56FE1A51D20CBB400A91E7E /* 新版发布_028.png */,
-				C56FE1A61D20CBB400A91E7E /* 新版发布_03.png */,
 				C56FE1A71D20CBB400A91E7E /* 新版发布_031.png */,
 				C56FE1A81D20CBB400A91E7E /* 新版发布_033.png */,
 				C56FE1A91D20CBB400A91E7E /* 新版发布_035.png */,
 				C56FE1AA1D20CBB400A91E7E /* 新版发布_038.png */,
 				C56FE1AB1D20CBB400A91E7E /* 新版发布_046.png */,
-				C56FE1AC1D20CBB400A91E7E /* 新版发布_06.png */,
-				C56FE1AD1D20CBB400A91E7E /* 新版发布_08.png */,
-				C56FE1AE1D20CBB400A91E7E /* 新版发布_10.png */,
 				C56FE1AF1D20CBB400A91E7E /* 新版发布_110.png */,
 				C56FE1B01D20CBB400A91E7E /* 新版发布_1116.png */,
 				C56FE1B11D20CBB400A91E7E /* 新版发布_112.png */,
 				C56FE1B21D20CBB400A91E7E /* 新版发布_114.png */,
 				C56FE1B31D20CBB400A91E7E /* 新版发布_116.png */,
-				C56FE1B41D20CBB400A91E7E /* 新版发布_12.png */,
 				C56FE1B51D20CBB400A91E7E /* 新版发布_120.png */,
 				C56FE1B61D20CBB400A91E7E /* 新版发布_122.png */,
 				C56FE1B71D20CBB400A91E7E /* 新版发布_1220.png */,
 				C56FE1B81D20CBB400A91E7E /* 新版发布_124.png */,
 				C56FE1B91D20CBB400A91E7E /* 新版发布_126.png */,
-				C56FE1BA1D20CBB400A91E7E /* 新版发布_14.png */,
 				C56FE1BB1D20CBB400A91E7E /* 新版发布_143.png */,
 				C56FE1BC1D20CBB400A91E7E /* 新版发布_152.png */,
 				C56FE1BD1D20CBB400A91E7E /* 新版发布_16.png */,
@@ -4521,16 +4510,9 @@
 				C56FE1DD1D20CBB400A91E7E /* 新版世界圈_03.png */,
 				C56FE1DE1D20CBB400A91E7E /* 新版世界圈_05.png */,
 				C56FE1DF1D20CBB400A91E7E /* 新版世界圈_07.png */,
-				C56FE1E01D20CBB400A91E7E /* 新版发现1_03.png */,
 				C56FE1E11D20CBB400A91E7E /* 新版发现1_06.png */,
 				C56FE1E21D20CBB400A91E7E /* 新版发现1_08.png */,
 				C56FE1E31D20CBB400A91E7E /* 新版发现1_10.png */,
-				C56FE1E41D20CBB400A91E7E /* 新版发现1_12.png */,
-				C56FE1E51D20CBB400A91E7E /* 新版发现1_14.png */,
-				C56FE1E61D20CBB400A91E7E /* 新版发现1_16.png */,
-				C56FE1E71D20CBB400A91E7E /* 新版发现1_18.png */,
-				C56FE1E81D20CBB400A91E7E /* 新版发现1_20.png */,
-				C56FE1E91D20CBB400A91E7E /* 新版发现1_22.png */,
 				C56FE1EA1D20CBB400A91E7E /* 新版发现1_25.png */,
 				C56FE1EB1D20CBB400A91E7E /* 新版发现1_28.png */,
 				C56FE1EC1D20CBB400A91E7E /* 新版发现1_30.png */,
@@ -4557,7 +4539,6 @@
 				C55D86C81D2254C500155E0F /* 新版我的未登录状态_017.png */,
 				C55D86C91D2254C500155E0F /* 新版我的未登录状态_027.png */,
 				C55D86CA1D2254C500155E0F /* 新版我的未登录状态_031.png */,
-				C55D86CB1D2254C500155E0F /* 新版我的未登录状态_032.png */,
 				C55D86CC1D2254C500155E0F /* 新版我的未登录状态_073.png */,
 				C55D86CD1D2254C500155E0F /* 新版我的未登录状态_110.png */,
 				C55D86CE1D2254C500155E0F /* 新版我的未登录状态_130.png */,
@@ -4601,7 +4582,6 @@
 				C56FE28E1D20CBB400A91E7E /* 新版我的未登录状态1_21.png */,
 				C56FE28F1D20CBB400A91E7E /* 新版我的未登录状态_017.png */,
 				C56FE2901D20CBB400A91E7E /* 新版我的未登录状态_03.png */,
-				C56FE2911D20CBB400A91E7E /* 新版我的未登录状态_031.png */,
 				C56FE2921D20CBB400A91E7E /* 新版我的未登录状态_032.png */,
 				C56FE2931D20CBB400A91E7E /* 新版我的未登录状态_035.png */,
 				C56FE2941D20CBB400A91E7E /* 新版我的未登录状态_037.png */,
@@ -4675,6 +4655,7 @@
 				C56FE28A1D20CBB400A91E7E /* 新版设置新消息提醒_03.png */,
 				C56FE28B1D20CBB400A91E7E /* 添加账号登录_03.png */,
 				C56FE28C1D20CBB400A91E7E /* 添加账号登录_06.png */,
+				C547E79D1D235A150074F199 /* 登录.png */,
 			);
 			path = "新建文件夹";
 			sourceTree = "<group>";
@@ -4922,7 +4903,6 @@
 				B652BAD21C92C97C00711C2E /* personal_add_icon@2x.png in Resources */,
 				B652BA431C92C97C00711C2E /* return_button@3x.png in Resources */,
 				B652BABB1C92C97C00711C2E /* validation_button@3x.png in Resources */,
-				C56FE3AE1D20CBB400A91E7E /* 新版发现1_16.png in Resources */,
 				C56FE3F91D20CBB400A91E7E /* 新版发现1_252.png in Resources */,
 				C56FE3841D20CBB400A91E7E /* 新版发布_126.png in Resources */,
 				C56FE3151D20CBB400A91E7E /* 新版聊天记录_03.png in Resources */,
@@ -4948,9 +4928,9 @@
 				C56FE4BF1D20CBB400A91E7E /* 新版通讯录新的朋友添加朋友_013.png in Resources */,
 				B652BA821C92C97C00711C2E /* buy_car_button@3x.png in Resources */,
 				B652BB0E1C92C97C00711C2E /* find_icon02@2x.png in Resources */,
-				C56FE3791D20CBB400A91E7E /* 新版发布_10.png in Resources */,
 				B652BA7E1C92C97C00711C2E /* sell_car_button@2x.png in Resources */,
 				C56FE31F1D20CBB400A91E7E /* 新版信息_034.png in Resources */,
+				C547E7AA1D239D380074F199 /* 新版发布_10.png in Resources */,
 				C56FE3A91D20CBB400A91E7E /* 新版发现1_06.png in Resources */,
 				C56FE47D1D20CBB400A91E7E /* 新版设置新消息提醒_034.png in Resources */,
 				C56FE4381D20CBB400A91E7E /* 忘记密码_034.png in Resources */,
@@ -4968,6 +4948,7 @@
 				B652BA6B1C92C97C00711C2E /* job_seekers_button02@3x.png in Resources */,
 				C56FE3D21D20CBB400A91E7E /* 新版发现11_16.png in Resources */,
 				4E5805F31CEC38B5007BCF79 /* 他人资料_05.png in Resources */,
+				C547E7AC1D239D380074F199 /* 新版发布_14.png in Resources */,
 				B652BB2F1C92C97C00711C2E /* share_icon@2x.png in Resources */,
 				C56FE4A31D20CBB400A91E7E /* 新版信息_11.png in Resources */,
 				C56FE48A1D20CBB400A91E7E /* 新版信息_11.png in Resources */,
@@ -4982,7 +4963,6 @@
 				C56FE3DF1D20CBB400A91E7E /* 新版发现1_110.png in Resources */,
 				C56FE4B41D20CBB400A91E7E /* 新版通讯录_145.png in Resources */,
 				A7BF04D51B3AA98200DEFFBD /* DoPhotoCell.xib in Resources */,
-				C56FE3AC1D20CBB400A91E7E /* 新版发现1_12.png in Resources */,
 				C56FE3C01D20CBB400A91E7E /* 新版世界圈_017.png in Resources */,
 				B652BA591C92C97C00711C2E /* camera.png in Resources */,
 				C56FE3341D20CBB400A91E7E /* 新版信息_21.png in Resources */,
@@ -5047,7 +5027,6 @@
 				C56FE4451D20CBB400A91E7E /* 新版我的未登录状态_03.png in Resources */,
 				C56FE41B1D20CBB400A91E7E /* 新版求职默认_043.png in Resources */,
 				C56FE34F1D20CBB400A91E7E /* 新版聊天_114.png in Resources */,
-				C56FE3771D20CBB400A91E7E /* 新版发布_06.png in Resources */,
 				C56FE3391D20CBB400A91E7E /* 新版添加_03.png in Resources */,
 				B652BA411C92C97C00711C2E /* return_button.png in Resources */,
 				C56FE3F71D20CBB400A91E7E /* 新版发现1_238.png in Resources */,
@@ -5076,9 +5055,7 @@
 				C56FE3C91D20CBB400A91E7E /* 新版世界圈_065.png in Resources */,
 				C56FE3291D20CBB400A91E7E /* 新版信息_1161.png in Resources */,
 				F95A35041BBA318D00D4320A /* CollectWithMeTableViewCell.xib in Resources */,
-				C56FE4561D20CBB400A91E7E /* 新版我的未登录状态_031.png in Resources */,
 				5F48D0151BEF622800AC9A4C /* tx01@3x.png in Resources */,
-				C55D86D71D2254C600155E0F /* 新版我的未登录状态_032.png in Resources */,
 				C56FE4661D20CBB400A91E7E /* 新版我的未登录状态_21.png in Resources */,
 				B652BA481C92C97C00711C2E /* share_button@2x.png in Resources */,
 				B652BAD71C92C97C00711C2E /* two_code.png in Resources */,
@@ -5279,6 +5256,7 @@
 				C56FE3CF1D20CBB400A91E7E /* 新版发现11_08.png in Resources */,
 				B652BAF81C92C97C00711C2E /* rental_button.png in Resources */,
 				C56FE3651D20CBB400A91E7E /* 新版发布_16.png in Resources */,
+				C547E7A81D239D380074F199 /* 新版发布_06.png in Resources */,
 				C56FE47F1D20CBB400A91E7E /* 添加账号登录_013.png in Resources */,
 				C56FE4111D20CBB400A91E7E /* 新版朋友圈_115.png in Resources */,
 				C56FE42D1D20CBB400A91E7E /* 不看他的照片_053.png in Resources */,
@@ -5360,7 +5338,6 @@
 				A7BF04BF1B3A3EDF00DEFFBD /* area.plist in Resources */,
 				C56FE3EA1D20CBB400A91E7E /* 新版发现1_14.png in Resources */,
 				C56FE3141D20CBB400A91E7E /* 新版聊天_14.png in Resources */,
-				C56FE3A81D20CBB400A91E7E /* 新版发现1_03.png in Resources */,
 				C56FE42E1D20CBB400A91E7E /* 不看他的照片_105.png in Resources */,
 				C56FE48D1D20CBB400A91E7E /* 新版通讯录_13.png in Resources */,
 				B652BAE01C92C97C00711C2E /* buy_car_button.png in Resources */,
@@ -5379,6 +5356,7 @@
 				C56FE4461D20CBB400A91E7E /* 新版我的未登录状态_07.png in Resources */,
 				C56FE4131D20CBB400A91E7E /* 新版朋友圈_125.png in Resources */,
 				C56FE3B61D20CBB400A91E7E /* 新版发现1_35.png in Resources */,
+				C547E7A71D239D380074F199 /* 新版发布_03.png in Resources */,
 				B652BA191C92C97C00711C2E /* about_button@3x.png in Resources */,
 				C56FE4291D20CBB400A91E7E /* 不看他的照片_025.png in Resources */,
 				B652BA4C1C92C97C00711C2E /* share_icon@3x.png in Resources */,
@@ -5410,11 +5388,11 @@
 				C56FE4841D20CBB400A91E7E /* 添加账号登录_061.png in Resources */,
 				B652BA5D1C92C97C00711C2E /* for_rent_button02.png in Resources */,
 				B652BAC21C92C97C00711C2E /* find_icon01.png in Resources */,
-				C56FE3851D20CBB400A91E7E /* 新版发布_14.png in Resources */,
 				C56FE3961D20CBB400A91E7E /* 新版发布_264.png in Resources */,
 				C56FE3EB1D20CBB400A91E7E /* 新版发现1_16.png in Resources */,
 				B652BB301C92C97C00711C2E /* share_icon@3x.png in Resources */,
 				B652BAAF1C92C97C00711C2E /* up_icon@3x.png in Resources */,
+				C547E79E1D235A150074F199 /* 登录.png in Resources */,
 				A7BF04D31B3AA98200DEFFBD /* DoImagePickerController.xib in Resources */,
 				C56FE4CB1D20D5BD00A91E7E /* 1(1).jpg in Resources */,
 				C56FE3741D20CBB400A91E7E /* 新版发布_035.png in Resources */,
@@ -5422,7 +5400,6 @@
 				C56FE3361D20CBB400A91E7E /* 新版信息_2111.png in Resources */,
 				B652BB311C92C97C00711C2E /* banner01.png in Resources */,
 				4E72ED481CE8657A00086E8D /* release_notes_ios.txt in Resources */,
-				C56FE3B01D20CBB400A91E7E /* 新版发现1_20.png in Resources */,
 				C56FE32D1D20CBB400A91E7E /* 新版信息_131.png in Resources */,
 				B652BA2C1C92C97C00711C2E /* dow_icon.png in Resources */,
 				C56FE3461D20CBB400A91E7E /* 新版聊天_0311.png in Resources */,
@@ -5437,7 +5414,6 @@
 				C56FE3811D20CBB400A91E7E /* 新版发布_122.png in Resources */,
 				C56FE3421D20CBB400A91E7E /* 新版添加_109.png in Resources */,
 				B652BB2D1C92C97C00711C2E /* publi_shing_icon@3x.png in Resources */,
-				C56FE37F1D20CBB400A91E7E /* 新版发布_12.png in Resources */,
 				C56FE40E1D20CBB400A91E7E /* 新版朋友圈_11.png in Resources */,
 				C56FE36A1D20CBB400A91E7E /* 新版发布_31.png in Resources */,
 				C55D86E11D22658A00155E0F /* NotLogTableViewCell.xib in Resources */,
@@ -5490,11 +5466,11 @@
 				C56FE4011D20CBB400A91E7E /* 新版发现1_330.png in Resources */,
 				B652BA451C92C97C00711C2E /* right_icon@2x.png in Resources */,
 				C56FE33E1D20CBB400A91E7E /* 新版添加_065.png in Resources */,
-				C56FE3711D20CBB400A91E7E /* 新版发布_03.png in Resources */,
 				C56FE3451D20CBB400A91E7E /* 新版聊天_031.png in Resources */,
 				C56FE4741D20CBB400A91E7E /* 新版我的未登录状态_28.png in Resources */,
 				C56FE44C1D20CBB400A91E7E /* 新版我的未登录状态_26.png in Resources */,
 				B652BA631C92C97C00711C2E /* hands_wanted_button02.png in Resources */,
+				C547E7AB1D239D380074F199 /* 新版发布_12.png in Resources */,
 				B652BB061C92C97C00711C2E /* contact_icon01@3x.png in Resources */,
 				C56FE3191D20CBB400A91E7E /* 新版他人详细资料_033.png in Resources */,
 				B652BA5A1C92C97C00711C2E /* camera@2x.png in Resources */,
@@ -5511,14 +5487,12 @@
 				B652BB041C92C97C00711C2E /* contact_icon01.png in Resources */,
 				B652BAE61C92C97C00711C2E /* crane_button.png in Resources */,
 				C56FE3F51D20CBB400A91E7E /* 新版发现1_225.png in Resources */,
-				C56FE3AF1D20CBB400A91E7E /* 新版发现1_18.png in Resources */,
 				B652BA3E1C92C97C00711C2E /* publi_icon02.png in Resources */,
 				B652BABF1C92C97C00711C2E /* contact_icon02.png in Resources */,
 				B652BAAB1C92C97C00711C2E /* search@2x.png in Resources */,
 				B652BAB11C92C97C00711C2E /* choose_button01@2x.png in Resources */,
 				F93BADAD1BBC1A2700CB8794 /* CellViewController.xib in Resources */,
 				A7BF04D11B3AA98200DEFFBD /* DoAlbumCell.xib in Resources */,
-				C56FE3781D20CBB400A91E7E /* 新版发布_08.png in Resources */,
 				C56FE47C1D20CBB400A91E7E /* 新版设置新消息提醒_033.png in Resources */,
 				C56FE35B1D20CBB400A91E7E /* 新版聊天记录_067.png in Resources */,
 				C56FE4B51D20CBB400A91E7E /* 新版通讯录_15.png in Resources */,
@@ -5599,7 +5573,6 @@
 				C56FE4161D20CBB400A91E7E /* 新版朋友圈_207.png in Resources */,
 				C56FE42C1D20CBB400A91E7E /* 不看他的照片_05.png in Resources */,
 				B652BA3D1C92C97C00711C2E /* positioning_button@3x.png in Resources */,
-				C56FE3B11D20CBB400A91E7E /* 新版发现1_22.png in Resources */,
 				B652BAE31C92C97C00711C2E /* concrete_button.png in Resources */,
 				B652BAF11C92C97C00711C2E /* job_seekers_button@3x.png in Resources */,
 				B652BACC1C92C97C00711C2E /* personal_select_icon01.png in Resources */,
@@ -5626,6 +5599,7 @@
 				B652BA9B1C92C97C00711C2E /* up.png in Resources */,
 				C56FE31C1D20CBB400A91E7E /* 新版信息_023.png in Resources */,
 				C56FE4681D20CBB400A91E7E /* 新版我的未登录状态_213.png in Resources */,
+				C547E7A91D239D380074F199 /* 新版发布_08.png in Resources */,
 				B652BAC41C92C97C00711C2E /* find_icon01@3x.png in Resources */,
 				C56FE3D11D20CBB400A91E7E /* 新版发现11_14.png in Resources */,
 				F9879AA61BCB8DB200B1CA08 /* address.plist in Resources */,
@@ -5653,7 +5627,6 @@
 				C56FE3351D20CBB400A91E7E /* 新版信息_211.png in Resources */,
 				C56FE4961D20CBB400A91E7E /* 新版他人详细资料2_03.png in Resources */,
 				C56FE33B1D20CBB400A91E7E /* 新版添加_033.png in Resources */,
-				C56FE3AD1D20CBB400A91E7E /* 新版发现1_14.png in Resources */,
 				C56FE3FE1D20CBB400A91E7E /* 新版发现1_323.png in Resources */,
 				C56FE3D01D20CBB400A91E7E /* 新版发现11_12.png in Resources */,
 				C56FE4BE1D20CBB400A91E7E /* 新版通讯录_210.png in Resources */,
@@ -5703,6 +5676,7 @@
 				A72520EA1B4F6EDE000CF39B /* IQTextView.m in Sources */,
 				A7AA82D41B296DB20050242A /* UIAlertView+AFNetworking.m in Sources */,
 				A7AA82D61B296DB20050242A /* UIImageView+AFNetworking.m in Sources */,
+				C547E7A01D239B270074F199 /* DiscoveryViewController.m in Sources */,
 				A72520E81B4F6EDE000CF39B /* IQKeyboardReturnKeyHandler.m in Sources */,
 				5F1BFA7B1BF22E5500C8F85D /* FMResultSet.m in Sources */,
 				B6D32B671C06FBEF00E82635 /* PhotoScrollView.m in Sources */,
@@ -5881,7 +5855,6 @@
 				A7BF04CF1B3AA98200DEFFBD /* AssetHelper.m in Sources */,
 				A7AA82821B2937410050242A /* UIView+EXT.m in Sources */,
 				A7AF07051B6708440070B931 /* SDWebImageDownloader.m in Sources */,
-				B652B6941C8E811800711C2E /* DiscoveryViewController.m in Sources */,
 				4E9CFD4C1D0E7EE600F7D769 /* CircleFriendsViewController.m in Sources */,
 				5F1BFA781BF22E5500C8F85D /* FMDatabaseAdditions.m in Sources */,
 				4E18EBC51CE355F500246558 /* ChineseToPinyinResource.m in Sources */,
@@ -5902,6 +5875,7 @@
 				A787BAF51B3108B0002B3D5F /* EmployeModel.m in Sources */,
 				A78C5A781B2EAE3700C826A3 /* DetailInfoModel.m in Sources */,
 				5F103DF51BEB29EC00B78C45 /* MBProgressHUD+NJ.m in Sources */,
+				C547E7B21D23BAF90074F199 /* PersonInfoViewController.m in Sources */,
 				A7AA82571B2923140050242A /* PublicViewController.m in Sources */,
 				A787BAFB1B311317002B3D5F /* MachineDetailViewController.m in Sources */,
 			);

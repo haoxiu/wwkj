@@ -44,7 +44,7 @@
 - (void)_loadViews {
     
     _titles = @[@"附近出租", @"附近求租",@"附近卖车", @"附近买车", @"附近求职", @"附近招聘"];
-    _imgs = @[@"新版发现1_18",@"新版发现1_16",@"新版发现1_14",@"新版发现1_12",@"新版发现1_22",@"新版发现1_20"];
+    _imgs = @[@"新版发现1_18",@"新版发现1_162",@"新版发现1_14",@"新版发现1_12",@"新版发现1_22",@"新版发现1_20"];
 
     _tableView.bounces = NO;
     UIView *footView = [[UIView alloc]init];
@@ -83,7 +83,7 @@
         cell.Lable.text = @"朋友圈";
         cell.Lable.font = [UIFont systemFontOfSize:16];
         [cell.imagView setContentMode:UIViewContentModeScaleAspectFit];
-        cell.imagView.image =[UIImage imageNamed:@"新版发现1_03.jpg"];
+        cell.imagView.image =[UIImage imageNamed:@"新版发现1_03"];
         
     }else if (indexPath.section == 1){
         

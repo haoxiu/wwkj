@@ -45,8 +45,8 @@
 
 - (void)_loadViews {
     
-    _titles = @[@"卖车信息", @"买车信息",@"出租信息", @"求租信息", @"求职信息", @"招聘信息"];
-    _imgs = @[@"新版发布_08",@"新版发布_10",@"新版发布_03",@"新版发布_06",@"新版发布_12",@"新版发布_14"];
+    _titles = @[@"卖车信息",@"买车信息",@"出租信息",@"求租信息",@"求职信息",@"招聘信息"];
+    _imgs = @[@"新版发布_018",@"新版发布_110",@"新版发布_031",@"新版发布_016",@"新版发布_112",@"新版发布_114"];
     
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"PublishCell"];
     _tableView.bounces = NO;

@@ -25,6 +25,7 @@
 #import "SetViewController.h"
 #import "HeadTableViewCell.h"
 #import "NotLogTableViewCell.h"
+#import "PersonInfoViewController.h"
 
 #import "UINavigationController+CY.h"
 #import "MyPCWViewController.h"
@@ -41,11 +42,13 @@ static NSString *identfiy = @"Id";
 @interface MyInfoViewController ()
 @property (nonatomic, strong)UITableView *tableView;
 @property (nonatomic, strong) HeadTableViewCell *hv;
+@property (nonatomic, strong) NotLogTableViewCell *cellV;
 @property (nonatomic, strong) NSArray *imgs;
 @property (nonatomic, strong) NSArray *titles;
 @property (nonatomic, strong) UIView * bgView;
 @property (nonatomic, strong) UIView * aView;
-
+@property (nonatomic)NSString *str;
+@property (nonatomic, strong) UIImage *headImg;
 @end
 
 @implementation MyInfoViewController
@@ -88,17 +91,48 @@ static NSString *identfiy = @"Id";
 //    _hv.frame = CGRectMake(0, 0, kScreenWidth, 150);
 //    
 //    [_tableView setTableHeaderView:_hv];
+    
     //加载数据
-//    [self loadDates];
+    [self loadDates];
 
     
 }
 
-//- (void)loadDates
-//{
-//   
-//    
-//}
+- (void)loadDates
+{
+    [CYNetworkTool post:URL_UserInfo params:@{@"username":[[NSUserDefaults standardUserDefaults] objectForKey:@"username"]} success:^(id json) {
+        
+        DetailInfoModel *_model = [[DetailInfoModel alloc]initContentWithDic:json];
+        NSString *hdimg = json[@"hdimg"];
+        _str = json[@"state"];
+        NSData *imgData = [[NSData alloc]initWithBase64EncodedString:hdimg options:NSDataBase64DecodingIgnoreUnknownCharacters];
+        _headImg = [UIImage imageWithData:imgData];
+//        //把 性别、个人签名 添加到偏好设置中持久化
+        [[NSUserDefaults standardUserDefaults]setObject:_model.sex forKey:@"sex"];
+        [[NSUserDefaults standardUserDefaults]setObject:_model.sign forKey:@"sign"];
+//        [[NSUserDefaults standardUserDefaults]setObject:_model.hdimg forKey:@"hdimg"];
+        [[NSUserDefaults standardUserDefaults]setObject:@"1" forKey:@"isSaved"];
+        _hv.nickImg.layer.cornerRadius = _hv.nickImg.width/2;
+        _hv.nickImg.clipsToBounds = YES;
+        _hv.nickImg.translatesAutoresizingMaskIntoConstraints = NO;
+        if (_headImg != nil) {
+        _hv.nickImg.image = _headImg;
+        
+        }
+        [_tableView reloadData];
+        
+    } failure:^(NSError *error) {
+        [self.navigationController popViewControllerAnimated:YES];
+        
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.4 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            
+        });
+        
+    }];
+    
+
+    
+}
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     
     if (section == 0) {
@@ -121,44 +155,22 @@ static NSString *identfiy = @"Id";
     }
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
 
-    if (indexPath.section == 0) {
-        if (_hv.userName == nil) {
-            NotLogTableViewCell *cellV = [tableView dequeueReusableCellWithIdentifier:identfiy forIndexPath:indexPath];
-            
-            return cellV;
-        }if (_hv.userName != nil){
-        
-            [CYNetworkTool post:URL_UserInfo params:@{@"username":[[NSUserDefaults standardUserDefaults] objectForKey:@"username"]} success:^(id json) {
-                
-                DetailInfoModel *_model = [[DetailInfoModel alloc]initContentWithDic:json];
-                NSString *hdimg = json[@"hdimg"];
-                NSData *imgData = [[NSData alloc]initWithBase64EncodedString:hdimg options:NSDataBase64DecodingIgnoreUnknownCharacters];
-                UIImage *headImg = [UIImage imageWithData:imgData];
-                //把 性别、个人签名 添加到偏好设置中持久化
-                [[NSUserDefaults standardUserDefaults]setObject:_model.sex forKey:@"sex"];
-                [[NSUserDefaults standardUserDefaults]setObject:_model.sign forKey:@"sign"];
-                
-                [[NSUserDefaults standardUserDefaults]setObject:@"1" forKey:@"isSaved"];
-                _hv.nickImg.layer.cornerRadius = _hv.nickImg.width/2;
-                _hv.nickImg.clipsToBounds = YES;
-                _hv.nickImg.translatesAutoresizingMaskIntoConstraints = NO;
-                
-                if (headImg != nil) {
-                    _hv.nickImg.image = headImg;
-                }
-                
-            } failure:^(NSError *error) {
-                [self.navigationController popViewControllerAnimated:YES];
-                
-                dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.4 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-                    
-                });
-            }];
-        _hv = [tableView dequeueReusableCellWithIdentifier:identify forIndexPath:indexPath];
-        return _hv;
-        }
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+   
+        if (indexPath.section == 0){
+//        if ([_str  isEqualToString:@"1"]) {
+
+            _hv = [tableView dequeueReusableCellWithIdentifier:identify forIndexPath:indexPath];
+            return _hv;
+//        }else{
+//            _cellV = [tableView dequeueReusableCellWithIdentifier:identfiy forIndexPath:indexPath];
+//            _cellV.selectionStyle =UITableViewCellSelectionStyleNone;
+//            [_cellV.loading addTarget:self action:@selector(theLogin:) forControlEvents:UIControlEventTouchUpInside];
+//            NSLog(@"账号222：%@,%@",_hv.userName,_str);
+//            return _cellV;
+//        }
+       
     }
     PresonViewCellTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identy forIndexPath:indexPath];
     cell.imageview.image = [UIImage imageNamed:_imgs[indexPath.row]];
@@ -167,7 +179,12 @@ static NSString *identfiy = @"Id";
     return cell;
 }
 
-
+- (void)theLogin:(UIButton *)send
+{
+    UIStoryboard *profileSB = [UIStoryboard storyboardWithName:@"profile" bundle:nil];
+    LoginViewController *login = [profileSB instantiateViewControllerWithIdentifier:@"LoginViewController"];
+    [self.navigationController pushViewController:login andHideTabbar:YES animated:YES];
+}
 #pragma mark 单元格高度
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section == 0) {
@@ -183,15 +200,19 @@ static NSString *identfiy = @"Id";
     //点击颜色马上变回来
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     if (indexPath.section == 0) {
-        UIStoryboard *sb = [UIStoryboard storyboardWithName:@"profile" bundle:nil];
-        
-        UserInfoViewController *userInfo = [sb instantiateViewControllerWithIdentifier:@"UserInfoViewController"];
-    
-        [self.navigationController pushViewController:userInfo andHideTabbar:YES animated:YES];
-
+        if (indexPath.row == 0) {
+//            UIStoryboard *sb = [UIStoryboard storyboardWithName:@"profile" bundle:nil];
+            //            UserInfoViewController *userInfo = [sb instantiateViewControllerWithIdentifier:@"UserInfoViewController"];
+            PersonInfoViewController *info = [[PersonInfoViewController alloc] init];
+            
+            [self.navigationController pushViewController:info andHideTabbar:YES animated:YES];
+        }
     }if (indexPath.section == 1) {
         if (indexPath.row == 0) {
-            
+            MyPCWViewController *wc =[[MyPCWViewController alloc]init];
+            wc.title = @"我的发布";
+            wc.flag = 1;
+            [self.navigationController pushViewController:wc andHideTabbar:YES animated:YES];
         }if (indexPath.row == 1){
             [self QrcodeGenerated];
         }if (indexPath.row == 2){
@@ -200,7 +221,11 @@ static NSString *identfiy = @"Id";
             wc.flag = 2;
             [self.navigationController pushViewController:wc andHideTabbar:YES animated:YES];
         }if (indexPath.row == 3){
-            
+            MyPCWViewController *wc =[[MyPCWViewController alloc]init];
+            wc.title = @"等待审核";
+            wc.flag = 3;
+            [self.navigationController pushViewController:wc andHideTabbar:YES animated:YES];
+
         }if (indexPath.row == 4) {
             SetViewController *sc = [[SetViewController alloc] init];
             sc.title = @"设置";
@@ -246,10 +271,13 @@ static NSString *identfiy = @"Id";
     img.layer.cornerRadius = 20;
     img.layer.masksToBounds = YES;
     [img sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@",URL_Key,str]] placeholderImage:[UIImage imageNamed:@"me.jpg"]];
+    CALayer *lay = [img layer];
+    lay.borderColor = [[UIColor whiteColor] CGColor];
+    lay.borderWidth = 2.0f;
     [image addSubview:img];
 
     UILabel*label=[[UILabel alloc]initWithFrame:[FlexBile frameIPONE5Frame:CGRectMake(40-25,568/2-240+200+40, 320-80,30)]];
-      label.text=@"扫一扫上面的二维码，加我为好友";
+    label.text=@"扫一扫上面的二维码，加我为好友";
     label.font=[UIFont systemFontOfSize:14];
     label.textColor=[UIColor lightGrayColor];
     [_aView addSubview:label];
