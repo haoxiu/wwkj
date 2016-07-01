@@ -257,7 +257,6 @@
 		A7AF074D1B671B4A0070B931 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AF07381B671B4A0070B931 /* UIScrollView+MJExtension.m */; };
 		A7AF074E1B671B4A0070B931 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AF073A1B671B4A0070B931 /* UIScrollView+MJRefresh.m */; };
 		A7AF074F1B671B4A0070B931 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AF073C1B671B4A0070B931 /* UIView+MJExtension.m */; };
-		A7BF04BF1B3A3EDF00DEFFBD /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7BF04BE1B3A3EDF00DEFFBD /* area.plist */; };
 		A7BF04C21B3AA8DF00DEFFBD /* SellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF04C11B3AA8DF00DEFFBD /* SellViewController.m */; };
 		A7BF04CF1B3AA98200DEFFBD /* AssetHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF04C51B3AA98200DEFFBD /* AssetHelper.m */; };
 		A7BF04D01B3AA98200DEFFBD /* DoAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF04C71B3AA98200DEFFBD /* DoAlbumCell.m */; };
@@ -562,6 +561,8 @@
 		C547E7AB1D239D380074F199 /* 新版发布_12.png in Resources */ = {isa = PBXBuildFile; fileRef = C547E7A51D239D380074F199 /* 新版发布_12.png */; };
 		C547E7AC1D239D380074F199 /* 新版发布_14.png in Resources */ = {isa = PBXBuildFile; fileRef = C547E7A61D239D380074F199 /* 新版发布_14.png */; };
 		C547E7B21D23BAF90074F199 /* PersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C547E7B11D23BAF90074F199 /* PersonInfoViewController.m */; };
+		C559BE7C1D266C9F00A8E97E /* areas.plist in Resources */ = {isa = PBXBuildFile; fileRef = C559BE7A1D266C9E00A8E97E /* areas.plist */; };
+		C559BE7D1D266C9F00A8E97E /* citys.plist in Resources */ = {isa = PBXBuildFile; fileRef = C559BE7B1D266C9F00A8E97E /* citys.plist */; };
 		C55D86C31D22191E00155E0F /* HeadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C55D86C11D22191E00155E0F /* HeadTableViewCell.m */; };
 		C55D86C41D22191E00155E0F /* HeadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C55D86C21D22191E00155E0F /* HeadTableViewCell.xib */; };
 		C55D86D11D2254C600155E0F /* 新版我的未登录状态_03.png in Resources */ = {isa = PBXBuildFile; fileRef = C55D86C51D2254C500155E0F /* 新版我的未登录状态_03.png */; };
@@ -1492,7 +1493,6 @@
 		A7AF073A1B671B4A0070B931 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		A7AF073B1B671B4A0070B931 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		A7AF073C1B671B4A0070B931 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
-		A7BF04BE1B3A3EDF00DEFFBD /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
 		A7BF04C01B3AA8DF00DEFFBD /* SellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SellViewController.h; sourceTree = "<group>"; };
 		A7BF04C11B3AA8DF00DEFFBD /* SellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SellViewController.m; sourceTree = "<group>"; };
 		A7BF04C41B3AA98200DEFFBD /* AssetHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetHelper.h; sourceTree = "<group>"; };
@@ -1823,6 +1823,8 @@
 		C547E7A61D239D380074F199 /* 新版发布_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新版发布_14.png"; sourceTree = "<group>"; };
 		C547E7B01D23BAF90074F199 /* PersonInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonInfoViewController.h; sourceTree = "<group>"; };
 		C547E7B11D23BAF90074F199 /* PersonInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonInfoViewController.m; sourceTree = "<group>"; };
+		C559BE7A1D266C9E00A8E97E /* areas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = areas.plist; sourceTree = "<group>"; };
+		C559BE7B1D266C9F00A8E97E /* citys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citys.plist; sourceTree = "<group>"; };
 		C55D86C01D22191E00155E0F /* HeadTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadTableViewCell.h; sourceTree = "<group>"; };
 		C55D86C11D22191E00155E0F /* HeadTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadTableViewCell.m; sourceTree = "<group>"; };
 		C55D86C21D22191E00155E0F /* HeadTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeadTableViewCell.xib; sourceTree = "<group>"; };
@@ -3176,6 +3178,8 @@
 			isa = PBXGroup;
 			children = (
 				A740F5B81B6226A50029373B /* 挖机注册协议.txt */,
+				C559BE7A1D266C9E00A8E97E /* areas.plist */,
+				C559BE7B1D266C9F00A8E97E /* citys.plist */,
 				51D5351D1B7D9ED900068B1C /* Utility */,
 				A7AA829F1B296D670050242A /* framework */,
 				A7AA827F1B2937380050242A /* common */,
@@ -3356,7 +3360,6 @@
 		A7AA823C1B291D6A0050242A /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				A7BF04BE1B3A3EDF00DEFFBD /* area.plist */,
 				A7AA82551B2923140050242A /* PublicViewController.h */,
 				A7AA82561B2923140050242A /* PublicViewController.m */,
 				A7CBB3941B33AE3600968D6F /* ZhaoPinViewController.h */,
@@ -5050,6 +5053,7 @@
 				B652B82B1C8FACA400711C2E /* LinkMan.storyboard in Resources */,
 				B652BA7C1C92C97C00711C2E /* sell_car_button02@2x.png in Resources */,
 				A77D86431B3D3A21006D0913 /* machineCell.xib in Resources */,
+				C559BE7C1D266C9F00A8E97E /* areas.plist in Resources */,
 				C56FE4641D20CBB400A91E7E /* 新版我的未登录状态_154.png in Resources */,
 				B652BA521C92C97C00711C2E /* -@3x.png in Resources */,
 				C56FE3C91D20CBB400A91E7E /* 新版世界圈_065.png in Resources */,
@@ -5335,7 +5339,6 @@
 				C56FE4981D20CBB400A91E7E /* 新版他人详细资料2_053.png in Resources */,
 				C56FE4441D20CBB400A91E7E /* 忘记密码_08.png in Resources */,
 				C56FE4411D20CBB400A91E7E /* 微信登录_03.png in Resources */,
-				A7BF04BF1B3A3EDF00DEFFBD /* area.plist in Resources */,
 				C56FE3EA1D20CBB400A91E7E /* 新版发现1_14.png in Resources */,
 				C56FE3141D20CBB400A91E7E /* 新版聊天_14.png in Resources */,
 				C56FE42E1D20CBB400A91E7E /* 不看他的照片_105.png in Resources */,
@@ -5372,6 +5375,7 @@
 				C56FE32F1D20CBB400A91E7E /* 新版信息_1412.png in Resources */,
 				C55D86D91D2254C600155E0F /* 新版我的未登录状态_110.png in Resources */,
 				C56FE3231D20CBB400A91E7E /* 新版信息_11.png in Resources */,
+				C559BE7D1D266C9F00A8E97E /* citys.plist in Resources */,
 				C56FE3E91D20CBB400A91E7E /* 新版发现1_138.png in Resources */,
 				B652BAD01C92C97C00711C2E /* personal_select_icon02@2x.png in Resources */,
 				C56FE4791D20CBB400A91E7E /* 新版我的相册_034.png in Resources */,

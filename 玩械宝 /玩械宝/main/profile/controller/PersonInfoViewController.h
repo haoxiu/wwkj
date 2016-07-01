@@ -7,11 +7,12 @@
 //
 
 #import "BaseViewController.h"
-
+#import "DetailInfoModel.h"
 @interface PersonInfoViewController : BaseViewController<UITableViewDelegate,UITableViewDataSource,UIActionSheetDelegate,UINavigationControllerDelegate,UIImagePickerControllerDelegate>
 @property(nonatomic,strong) DetailInfoModel *model;
 
 @property(nonatomic,assign)BOOL fromOtherController;
 @property(nonatomic,strong)UIImage *headimg;
+
 
 @end
