@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>content</key>
+		<string>欢迎来到玩械宝，在这里您能找到至上的服务和真诚的合作！</string>
+		<key>icon</key>
+		<string>logo.png</string>
+		<key>time</key>
+		<string>前天 10:25</string>
+		<key>self</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>content</key>
+		<string>聊天与好友功能正在更新。。。</string>
+		<key>icon</key>
+		<string>logo.png</string>
+		<key>time</key>
+		<string>前天 10:25</string>
+		<key>self</key>
+		<false/>
+	</dict>
+</array>
+</plist>

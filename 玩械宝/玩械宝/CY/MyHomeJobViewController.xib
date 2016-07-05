@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyHomeJobViewController">
+            <connections>
+                <outlet property="headView" destination="nFJ-ci-k7k" id="D9B-1O-qQI"/>
+                <outlet property="mainTableView" destination="tfi-yV-JCt" id="bdE-Bg-d3i"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nFJ-ci-k7k">
+                    <rect key="frame" x="0.0" y="64" width="375" height="35"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ocv-2V-89U" userLabel="地点">
+                            <rect key="frame" x="0.0" y="0.0" width="125" height="33"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="地点">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2MO-Hy-bln" userLabel="职位">
+                            <rect key="frame" x="125" y="0.0" width="125" height="33"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="职位">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFg-Hx-iTw" userLabel="工作经验">
+                            <rect key="frame" x="250" y="0.0" width="125" height="33"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="工作经验">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.078431372550000003" green="0.80000000000000004" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="XFg-Hx-iTw" secondAttribute="trailing" id="Dkk-cV-NIq"/>
+                        <constraint firstItem="XFg-Hx-iTw" firstAttribute="width" secondItem="Ocv-2V-89U" secondAttribute="width" id="EgB-OW-0rL"/>
+                        <constraint firstItem="XFg-Hx-iTw" firstAttribute="leading" secondItem="2MO-Hy-bln" secondAttribute="trailing" id="FHu-Q8-w4E"/>
+                        <constraint firstAttribute="bottom" secondItem="2MO-Hy-bln" secondAttribute="bottom" constant="2" id="FOn-XR-ZMS"/>
+                        <constraint firstAttribute="bottom" secondItem="XFg-Hx-iTw" secondAttribute="bottom" constant="2" id="Fsg-vW-LuC"/>
+                        <constraint firstItem="XFg-Hx-iTw" firstAttribute="top" secondItem="nFJ-ci-k7k" secondAttribute="top" id="I6D-ug-ezf"/>
+                        <constraint firstItem="XFg-Hx-iTw" firstAttribute="width" secondItem="2MO-Hy-bln" secondAttribute="width" id="L9k-9N-fZe"/>
+                        <constraint firstItem="Ocv-2V-89U" firstAttribute="top" secondItem="nFJ-ci-k7k" secondAttribute="top" id="MfW-Z3-zoo"/>
+                        <constraint firstItem="2MO-Hy-bln" firstAttribute="leading" secondItem="Ocv-2V-89U" secondAttribute="trailing" id="dGk-yI-E4M"/>
+                        <constraint firstItem="Ocv-2V-89U" firstAttribute="leading" secondItem="nFJ-ci-k7k" secondAttribute="leading" id="ePV-bv-GRT"/>
+                        <constraint firstItem="2MO-Hy-bln" firstAttribute="top" secondItem="nFJ-ci-k7k" secondAttribute="top" id="jXM-hT-PsX"/>
+                        <constraint firstAttribute="height" constant="35" id="kK0-WP-3oR"/>
+                        <constraint firstAttribute="bottom" secondItem="Ocv-2V-89U" secondAttribute="bottom" constant="2" id="toc-Uz-5CU"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="tfi-yV-JCt">
+                    <rect key="frame" x="0.0" y="100" width="375" height="567"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="g4G-HG-i39"/>
+                        <outlet property="delegate" destination="-1" id="msQ-B2-B3T"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="tfi-yV-JCt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ARq-YY-RuH"/>
+                <constraint firstAttribute="bottom" secondItem="tfi-yV-JCt" secondAttribute="bottom" id="CvO-hR-JvL"/>
+                <constraint firstItem="tfi-yV-JCt" firstAttribute="top" secondItem="nFJ-ci-k7k" secondAttribute="bottom" constant="1" id="GdL-a0-5fu"/>
+                <constraint firstItem="nFJ-ci-k7k" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="NVS-xT-bez"/>
+                <constraint firstAttribute="trailing" secondItem="nFJ-ci-k7k" secondAttribute="trailing" id="U5B-Xt-KWB"/>
+                <constraint firstAttribute="trailing" secondItem="tfi-yV-JCt" secondAttribute="trailing" id="ZyE-k0-aiJ"/>
+                <constraint firstItem="nFJ-ci-k7k" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="wdI-nr-QXt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

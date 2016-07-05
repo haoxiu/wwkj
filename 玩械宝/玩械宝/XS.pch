@@ -1,0 +1,29 @@
+//
+//  XS.pch
+//  玩械宝
+//
+//  Created by CaiNiao on 15/6/11.
+//  Copyright (c) 2015年 zgcainiao. All rights reserved.
+//
+
+#ifndef ____XS_pch
+#define ____XS_pch
+#import "Utility.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "UIView+EXT.h"
+#import "Header.h"
+#import "DataCenter.h"
+
+#import "UIView+UIViewController.h"
+#define kScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kNaviColor [UIColor colorWithRed:0.396f green:0.733f blue:0.933f alpha:1.00f]
+#define baseUrl @"http://eswjdg.com/index.php"
+#define iOS8 [[UIDevice currentDevice].systemVersion floatValue]>=8.0
+#define kImgClikNotification @"clickphotonotification"
+#define kIntroduce @"挖掘机，又称挖掘机械（excavating machinery)，是用铲斗挖掘高于或低于承机面的物料，并装入运输车辆或卸至堆料场的土方机械。挖掘机挖掘的物料主要是土壤、煤、泥沙以及经过预松后的土壤和岩石。从近几年工程机械的发展来看，挖掘机的发展相对较快，挖掘机已经成为工程建设中最主要的工程机械之一。 挖掘机最重要的三个参数：操作重量（质量），发动机功率和铲斗斗容。"
+
+#define selectedIndexNum 4
+
+#endif

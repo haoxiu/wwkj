@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x73a9;&#x68b0;&#x5b9d;/main/profile/controller/ProfileViewController.m"
+            timestampString = "485503485.553757"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x73a9;&#x68b0;&#x5b9d;/main/profile/controller/LoginViewController.m"
+            timestampString = "485509821.393283"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "-getUserInfoWithUserId:completion:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x73a9;&#x68b0;&#x5b9d;/main/profile/controller/ProsonViewController.m"
+            timestampString = "485504496.218535"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x73a9;&#x68b0;&#x5b9d;/&#x7b2c;&#x4e8c;&#x7248;&#x65b0;&#x589e;&#x6a21;&#x5757;/Linkman/Controller/FriendsDetailsViewController.m"
+            timestampString = "485703269.086372"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "-deleteFriend"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x73a9;&#x68b0;&#x5b9d;/&#x7b2c;&#x4e8c;&#x7248;&#x65b0;&#x589e;&#x6a21;&#x5757;/Linkman/Controller/FriendsDetailsViewController.m"
+            timestampString = "487905544.815567"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "-HeadTransparentLayer"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x73a9;&#x68b0;&#x5b9d;/AppDelegate.mm"
+            timestampString = "487910508.362151"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "257"
+            endingLineNumber = "257"
+            landmarkName = "-onRCIMConnectionStatusChanged:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x73a9;&#x68b0;&#x5b9d;/main/profile/controller/LoginViewController.m"
+            timestampString = "487908567.714073"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "-loginWithUserName:pwd:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__45-[LoginViewController loginWithUserName:pwd:]_block_invoke_3"
+                  moduleName = "wanxiebao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liuyixuan613/Downloads/%E5%8F%91%E5%B8%83%20%202/%E7%8E%A9%E6%A2%B0%E5%AE%9D%20/%E7%8E%A9%E6%A2%B0%E5%AE%9D/main/profile/controller/LoginViewController.m"
+                  timestampString = "487913039.494838"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "158"
+                  endingLineNumber = "158"
+                  offsetFromSymbolStart = "288">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__copy_helper_block_194"
+                  moduleName = "wanxiebao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liuyixuan613/Downloads/%E5%8F%91%E5%B8%83%20%202/%E7%8E%A9%E6%A2%B0%E5%AE%9D%20/%E7%8E%A9%E6%A2%B0%E5%AE%9D/main/profile/controller/LoginViewController.m"
+                  timestampString = "487913039.495092"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_195"
+                  moduleName = "wanxiebao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liuyixuan613/Downloads/%E5%8F%91%E5%B8%83%20%202/%E7%8E%A9%E6%A2%B0%E5%AE%9D%20/%E7%8E%A9%E6%A2%B0%E5%AE%9D/main/profile/controller/LoginViewController.m"
+                  timestampString = "487913039.4953"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__45-[LoginViewController loginWithUserName:pwd:]_block_invoke198"
+                  moduleName = "wanxiebao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liuyixuan613/Downloads/%E5%8F%91%E5%B8%83%20%202/%E7%8E%A9%E6%A2%B0%E5%AE%9D%20/%E7%8E%A9%E6%A2%B0%E5%AE%9D/main/profile/controller/LoginViewController.m"
+                  timestampString = "487913039.495498"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "159"
+                  endingLineNumber = "159"
+                  offsetFromSymbolStart = "27">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x73a9;&#x68b0;&#x5b9d;/main/MainController.m"
+            timestampString = "487909522.549979"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "-_createChildControllers"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x73a9;&#x68b0;&#x5b9d;/main/profile/controller/LoginViewController.m"
+            timestampString = "487910554.067829"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "-loginWithUserName:pwd:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LoginViewController loginWithUserName:pwd:]"
+                  moduleName = "wanxiebao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liuyixuan613/Downloads/%E5%8F%91%E5%B8%83%20%202/%E7%8E%A9%E6%A2%B0%E5%AE%9D%20/%E7%8E%A9%E6%A2%B0%E5%AE%9D/main/profile/controller/LoginViewController.m"
+                  timestampString = "487913039.497497"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "282">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__45-[LoginViewController loginWithUserName:pwd:]_block_invoke"
+                  moduleName = "wanxiebao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liuyixuan613/Downloads/%E5%8F%91%E5%B8%83%20%202/%E7%8E%A9%E6%A2%B0%E5%AE%9D%20/%E7%8E%A9%E6%A2%B0%E5%AE%9D/main/profile/controller/LoginViewController.m"
+                  timestampString = "487913039.49774"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x73a9;&#x68b0;&#x5b9d;/main/profile/controller/ProfileViewController.m"
+            timestampString = "487913033.292274"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "-logoutAction"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

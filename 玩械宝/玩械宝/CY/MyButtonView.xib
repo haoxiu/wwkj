@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MyButtonView">
+            <rect key="frame" x="0.0" y="0.0" width="125" height="35"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VNF-sh-hg6">
+                    <rect key="frame" x="0.0" y="0.0" width="125" height="33"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="品牌" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSH-03-GtN">
+                    <rect key="frame" x="0.0" y="0.0" width="75" height="33"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="wgW-O4-lgB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="highlightedColor" red="0.078431372550000003" green="0.80000000000000004" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dow_icon.png" highlightedImage="up_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="RdA-iL-gwE">
+                    <rect key="frame" x="75" y="0.0" width="35" height="33"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="5nw-NZ-Pge"/>
+                        <constraint firstAttribute="width" constant="35" id="yu4-Tv-aJh"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j94-6E-P72">
+                    <rect key="frame" x="0.0" y="0.0" width="125" height="35"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="myBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Y5e-yQ-ZuP"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ZSH-03-GtN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4TD-Xh-b3h"/>
+                <constraint firstItem="VNF-sh-hg6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="6pP-26-Ono"/>
+                <constraint firstAttribute="trailing" secondItem="VNF-sh-hg6" secondAttribute="trailing" id="OdB-LS-LbZ"/>
+                <constraint firstItem="RdA-iL-gwE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="OkV-2F-GNs"/>
+                <constraint firstItem="j94-6E-P72" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="P1S-7P-3s6"/>
+                <constraint firstItem="VNF-sh-hg6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Pab-p2-x51"/>
+                <constraint firstAttribute="bottom" secondItem="RdA-iL-gwE" secondAttribute="bottom" constant="2" id="Pft-UN-kG0"/>
+                <constraint firstItem="j94-6E-P72" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="SDw-Yf-Fpk"/>
+                <constraint firstAttribute="trailing" secondItem="RdA-iL-gwE" secondAttribute="trailing" constant="15" id="Smy-OV-T9I"/>
+                <constraint firstAttribute="bottom" secondItem="VNF-sh-hg6" secondAttribute="bottom" constant="2" id="TvF-Vh-lLm"/>
+                <constraint firstAttribute="bottom" secondItem="j94-6E-P72" secondAttribute="bottom" id="dAt-jf-zfr"/>
+                <constraint firstAttribute="trailing" secondItem="j94-6E-P72" secondAttribute="trailing" id="ehe-ul-EAB"/>
+                <constraint firstItem="ZSH-03-GtN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ibf-tb-NYI"/>
+                <constraint firstAttribute="bottom" secondItem="ZSH-03-GtN" secondAttribute="bottom" constant="2" id="k7J-bb-Wzq"/>
+                <constraint firstItem="RdA-iL-gwE" firstAttribute="leading" secondItem="ZSH-03-GtN" secondAttribute="trailing" id="t2f-qY-EHw"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="icon" destination="RdA-iL-gwE" id="JqC-1K-7KI"/>
+                <outlet property="myBtn" destination="j94-6E-P72" id="Md7-j8-8CT"/>
+                <outlet property="optionLabel" destination="ZSH-03-GtN" id="ue5-Kf-eLE"/>
+            </connections>
+            <point key="canvasLocation" x="250.5" y="322.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="dow_icon.png" width="9" height="5"/>
+        <image name="up_icon.png" width="8" height="6"/>
+    </resources>
+</document>
