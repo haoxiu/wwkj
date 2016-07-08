@@ -35,7 +35,7 @@
 @property (nonatomic, strong) UILabel *nickName;
 @property (nonatomic, strong) UILabel *sexL;
 @property (nonatomic, strong) UILabel *userName;
-@property (copy, nonatomic) UILabel *lacation;
+@property (nonatomic, strong) UILabel *lacation;
 @property (nonatomic) SGLocationPickerView *pickerView;
 
 
@@ -65,8 +65,7 @@
         hub.dimBackground = NO;
         [self _loadData];
     }
-    
-    //地区通知
+       //地区通知
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(tongzhi:) name:@"NickNotification" object:nil];
     
 }
@@ -98,7 +97,7 @@
         //把 性别、个人签名 添加到偏好设置中持久化
         [[NSUserDefaults standardUserDefaults]setObject:_model.sex forKey:@"sex"];
         [[NSUserDefaults standardUserDefaults]setObject:_model.sign forKey:@"sign"];
-//        [[NSUserDefaults standardUserDefaults]setObject:_model.hdimg forKey:@"hdimg"];
+        [[NSUserDefaults standardUserDefaults]setObject:_model.hdimg forKey:@"hdimg"];
         
         [[NSUserDefaults standardUserDefaults]setObject:@"1" forKey:@"isSaved"];
         NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
@@ -134,9 +133,9 @@
     _nickName.text = _model.nickname;
     //    _userName_1.text =[_model.username substringWithRange:NSMakeRange(0, 3)];
     //    _userName_2.text =[_model.username substringWithRange:NSMakeRange(3, 4)];
-    _userName.text =[_model.username substringWithRange:NSMakeRange(7, 4)];
-    
-    _sexL.text =_model.sex;
+    _userName.text = [_model.username substringWithRange:NSMakeRange(7, 4)];
+    _lacation.text = _model.sign;
+    _sexL.text = _model.sex;
 }
 - (void)refreshViewsWithDefult {
     
@@ -150,17 +149,19 @@
         }
     }
     //    _nickName.text = [[NSUserDefaults standardUserDefaults] objectForKey:@"nickname"];
-    username = [[NSUserDefaults standardUserDefaults] objectForKey:@"username"];
+    
     //    _userName_1.text =[username substringWithRange:NSMakeRange(0, 3)];
     //    _userName_2.text =[username substringWithRange:NSMakeRange(3, 4)];
     //    _userName.text = [username substringWithRange:NSMakeRange(0, 7)];
     //
-    //    _sign.text =[[NSUserDefaults standardUserDefaults] objectForKey:@"sign"];;
-    //    _sexL.text =[[NSUserDefaults standardUserDefaults] objectForKey:@"sex"];
-    NSString *imgStr = [[NSUserDefaults standardUserDefaults]objectForKey:@"hdimg"];
-    NSData *imgData = [[NSData alloc]initWithBase64EncodedString:imgStr options:NSDataBase64DecodingIgnoreUnknownCharacters];
-    img = [UIImage imageWithData:imgData];
-   
+        username = [[NSUserDefaults standardUserDefaults] objectForKey:@"username"];
+//        _lacation.text =[[NSUserDefaults standardUserDefaults] objectForKey:@"sign"];
+//        _sexL.text =[[NSUserDefaults standardUserDefaults] objectForKey:@"sex"];
+        NSString *imgStr = [[NSUserDefaults standardUserDefaults]objectForKey:@"hdimg"];
+        NSData *imgData = [[NSData alloc]initWithBase64EncodedString:imgStr options:NSDataBase64DecodingIgnoreUnknownCharacters];
+        img = [UIImage imageWithData:imgData];
+    
+
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -196,10 +197,11 @@
     } if (indexPath.row == 4) {
         _lacation = [[UILabel alloc] initWithFrame:CGRectMake(cell.frame.size.width*0.45, 0, 200, 44)];
         _lacation.textAlignment = NSTextAlignmentLeft;
-        
+        _lacation.text=[[NSUserDefaults standardUserDefaults] objectForKey:@"sign"];
         //         _lacation.text = _pickerView.locationMessage(location);
         [cell addSubview:_lacation];
-    }
+    } //添加 字典，将label的值通过key值设置传递
+   
     cell.textLabel.text = _titles[indexPath.row];
     return cell;
 }
@@ -250,8 +252,24 @@
         
         [_pickerView appearCouponSheetView];
         
-        
     }
+//    NSDictionary *param = @{@"sign":_lacation.text};
+//    
+//    [CYNetworkTool post:URL_ChangeInfo params:param success:^(id json) {
+//        if ([json[@"state"] isEqualToNumber:@1]) {
+//            
+//            //                [MBProgressHUD showSuccess:@"修改成功"];
+//            
+//            [[NSUserDefaults standardUserDefaults] setObject:_lacation.text forKey:@"sign"];
+//        }else {
+//            
+//            [MBProgressHUD showError:@"修改失败"];
+//        }
+//    }failure:^(NSError *error) {
+//        
+//        [MBProgressHUD showError:@"网络异常"];
+//    }];
+
 }
 
 #pragma mark UIActionSheet delegate
@@ -323,14 +341,21 @@
      */
     _headImg.image = image;
     
-    //添加 字典，将label的值通过key值设置传递
-    NSDictionary *dict =[[NSDictionary alloc] initWithObjectsAndKeys:image,@"text", nil];
+//    //添加 字典，将label的值通过key值设置传递
+//    NSDictionary *dict =[[NSDictionary alloc] initWithObjectsAndKeys:image,@"img", nil];
+//    //创建通知
+//    
+//    NSNotification *notification =[NSNotification notificationWithName:@"NickNotifica" object:nil userInfo:dict];
+//    //通过通知中心发送通知
+//    [[NSNotificationCenter defaultCenter] postNotification:notification];
+//
+    NSDictionary *dict =[[NSDictionary alloc] initWithObjectsAndKeys:_headImg.image,@"img", nil];
     //创建通知
     
     NSNotification *notification =[NSNotification notificationWithName:@"NickNotifica" object:nil userInfo:dict];
     //通过通知中心发送通知
     [[NSNotificationCenter defaultCenter] postNotification:notification];
-    
+
     
     _delegate.model.hdimg = imgString;
     
@@ -350,6 +375,7 @@
         
         [MBProgressHUD showError:@"网络异常"];
     }];
+   
 }
 
 #pragma mark 图片等比例压缩
@@ -380,6 +406,14 @@
             UITextField *tf=[alertView textFieldAtIndex:0];//获得输入框
             NSString * requestedURL = tf.text;//获得值
             _nickName.text = requestedURL;
+            NSDictionary *dict =[[NSDictionary alloc] initWithObjectsAndKeys:_nickName.text,@"name", nil];
+            //创建通知
+            
+            NSNotification *nottion =[NSNotification notificationWithName:@"NickNotificas" object:nil userInfo:dict];
+            //通过通知中心发送通知
+            [[NSNotificationCenter defaultCenter] postNotification:nottion];
+
+           
         }
     }else if ([alertView.title isEqualToString:@"性别选择"]){
         if ([buttonTitle isEqualToString:@"男"]) {
@@ -389,7 +423,7 @@
         }
     }
     
-    NSDictionary *params = @{@"username":[[NSUserDefaults standardUserDefaults] objectForKey:@"username"],@"nickname":_nickName.text,@"sex":_sexL.text};
+    NSDictionary *params = @{@"username":[[NSUserDefaults standardUserDefaults] objectForKey:@"username"],@"nickname":_nickName.text,@"sex":_sexL.text,@"sign":_lacation.text};
     
     [CYNetworkTool post:URL_ChangeInfo params:params success:^(id json) {
         if ([json[@"state"] isEqualToNumber:@1]) {
@@ -397,9 +431,10 @@
                 
                 [MBProgressHUD showSuccess:@"修改成功"];
                 
-                //            [[NSUserDefaults standardUserDefaults] setObject:_sign.text forKey:@"sign"];
+                [[NSUserDefaults standardUserDefaults] setObject:_lacation.text forKey:@"sign"];
                 [[NSUserDefaults standardUserDefaults] setObject:_sexL.text forKey:@"sex"];
                 [[NSUserDefaults standardUserDefaults] setObject:_nickName.text forKey:@"nickname"];
+                
                 //            [self.navigationController popViewControllerAnimated:YES];
             }
         }else {
@@ -410,7 +445,6 @@
         
         [MBProgressHUD showError:@"网络异常"];
     }];
-    
     
 }
 

@@ -85,6 +85,7 @@ static int const SGLocationPickerSheetViewHeight = 250;
 //    self.locationMessage(location);
     
     [self disApperCouponSheetView];
+    
 }
 
 // 出现

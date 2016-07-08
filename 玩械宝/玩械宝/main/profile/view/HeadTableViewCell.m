@@ -14,11 +14,14 @@
 
 - (void)awakeFromNib{
     
+    
     _userName.text = [[NSUserDefaults standardUserDefaults]objectForKey:@"username"];
     _nickName.text = [[NSUserDefaults standardUserDefaults]objectForKey:@"nickname"];
 //    _nickImg.image = [[NSUserDefaults standardUserDefaults]objectForKey:@"hdimg"];
     
 }
+
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 

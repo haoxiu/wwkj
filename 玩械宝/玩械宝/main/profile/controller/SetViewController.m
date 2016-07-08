@@ -82,7 +82,7 @@
         [[NSUserDefaults standardUserDefaults]setObject:@"" forKey:@"username"];
         [[NSUserDefaults standardUserDefaults]setObject:@"" forKey:@"nickname"];
         [[NSUserDefaults standardUserDefaults]setObject:@"" forKey:@"pwd"];
-        [[NSUserDefaults standardUserDefaults]setObject:@"" forKey:@"hdimg"];
+//        [[NSUserDefaults standardUserDefaults]setObject:@"" forKey:@"hdimg"];
         [[NSUserDefaults standardUserDefaults]setObject:@"" forKey:@"sex"];
         [[NSUserDefaults standardUserDefaults]setObject:@"" forKey:@"sign"];
         [[NSUserDefaults standardUserDefaults]setObject:@"" forKey:@"isSaved"];

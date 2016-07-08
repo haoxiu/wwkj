@@ -98,24 +98,24 @@ static NSString *identfiy = @"cell";
     
     //头像通知
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(tongzhi:) name:@"NickNotifica" object:nil];
-    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(nicktongzhi:) name:@"NickNotificas" object:nil];
 }
 - (void)tongzhi:(NSNotification *)text{
     NSLog(@"%@",text.userInfo[@"text"]);
     NSLog(@"－－－－－接收到通知------");
-    self.hv.nickImg.image = text.userInfo[@"text"];
+    self.hv.nickImg.image = text.userInfo[@"img"];
+   
     
 }
-
+- (void)nicktongzhi:(NSNotification *)nickname{
+     self.hv.nickName.text = nickname.userInfo[@"name"];
+}
 - (void)loadDates
 {
     
     if ([[NSUserDefaults standardUserDefaults]objectForKey:@"username"]) {
         
         [CYNetworkTool post:URL_UserInfo params:@{@"username":[[NSUserDefaults standardUserDefaults] objectForKey:@"username"]} success:^(id json) {
-            
-//            NSString *s = [[NSUserDefaults standardUserDefaults]objectForKey:@"hdimg"];
-            
             
             DetailInfoModel *_model = [[DetailInfoModel alloc]initContentWithDic:json];
             NSString *hdimg = json[@"hdimg"];
@@ -153,8 +153,12 @@ static NSString *identfiy = @"cell";
             });
             
         }];
-    
+        
+        
     }
+    
+    
+    
     
 }
 - (CGFloat) tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section

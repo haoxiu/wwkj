@@ -20,5 +20,7 @@
 - (IBAction)loginAction:(UIButton *)sender;
 - (void)loginWithUserName:(NSString *)userName pwd:(NSString *)pwd;
 - (IBAction)forgetAction:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *qqloginBtn;
+@property (weak, nonatomic) IBOutlet UIButton *wxloginBtn;
 
 @end

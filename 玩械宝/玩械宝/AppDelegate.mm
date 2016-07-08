@@ -16,7 +16,9 @@
 #import "WXApi.h"
 #import "WeiboApi.h"
 #import "WeiboSDK.h"
-#import "WXApi.h"
+#import "UMSocial.h"
+#import "UMSocialQQHandler.h"
+#import "UMSocialWechatHandler.h"
 #import "LoginViewController.h"
 #import "LaunchViewController.h"
 
@@ -53,12 +55,16 @@ static BMKMapManager *_mapManager =nil;
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     
+    [UMSocialData setAppKey:@"577f458d67e58eb2310011f8"];
+    [UMSocialQQHandler setQQWithAppId:@"1104611025" appKey:@"KaDFKusfqPZGL2Fx" url:@"http://www.umeng.com/social"];
+    [UMSocialWechatHandler setWXAppId:@"wxeda5d7b813108760" appSecret:@"5b86e3ecd286a8846714a978406755fa" url:@"http://www.umeng.com/social"];
     NSString * username = [[NSUserDefaults standardUserDefaults]objectForKey:@"username"];
     self.token = [[NSUserDefaults standardUserDefaults]objectForKey:@"token"];
     NSString *isOnce = [[NSUserDefaults standardUserDefaults]objectForKey:@"isOnce"];
-
+    
     self.window.rootViewController = [[LaunchViewController alloc]init];
-    [[NSUserDefaults standardUserDefaults]setObject:@"hasUse" forKey:@"isOnce"];
+    [[NSUserDefaults standardUserDefaults]setObject:@"hasUse" forKey:isOnce];
+    [UMSocialData openLog:YES];
     
 //    [WXApi registerApp:@"wx5a1a0b8ae407ffda" withDescription:@"Wechat"];
 
@@ -180,9 +186,10 @@ static BMKMapManager *_mapManager =nil;
     [self share];
     return YES;
 }
-//- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-//       return YES;
-//}
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary*)options{
+    return  [UMSocialSnsService handleOpenURL:url];
+}
+
 - (void)getUserInfoWithUserId:(NSString *)userId completion:(void (^)(RCUserInfo *))completion
 {
     

@@ -117,9 +117,9 @@
     }];
     [self clear];
     locationView = [[UIView alloc]init];
-    locationView.frame = CGRectMake(0, self.view.height, self.view.width, 150);
+    locationView.frame = CGRectMake(0, self.view.height, self.view.width, 200);
     [self.view addSubview:locationView];
-    _picker = [[UIPickerView alloc]initWithFrame:CGRectMake(0, 0, self.view.width, 100)];
+    _picker = [[UIPickerView alloc]initWithFrame:CGRectMake(0, 0, self.view.width, 150)];
     _picker.backgroundColor = [UIColor colorWithWhite:0.7 alpha:1];
     _picker.tag = 3;
     _picker.dataSource = self;

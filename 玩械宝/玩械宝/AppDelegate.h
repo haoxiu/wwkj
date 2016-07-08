@@ -16,7 +16,7 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate,RCIMConnectionStatusDelegate,RCIMUserInfoDataSource>
 
 @property (strong, nonatomic) UIWindow *window;
-@property(nonatomic,strong)SimpleInfoModel *model;
+@property (nonatomic, strong)SimpleInfoModel *model;
 @property (nonatomic, copy) NSString * token;
 
 @end

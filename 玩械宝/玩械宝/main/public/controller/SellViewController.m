@@ -115,7 +115,7 @@
 // 选择所在地
 - (IBAction)locationAction:(UIButton *)sender {
     
-    AroundViewController*vc=[[AroundViewController alloc]init];
+    AroundViewController *vc=[[AroundViewController alloc]init];
     [self.navigationController pushViewController:vc animated:YES];
      NSString * addressStr=[[NSUserDefaults standardUserDefaults]objectForKey:@"addressStr"];
     _place.text = addressStr;
@@ -414,7 +414,7 @@
     
     if (_imgs.count == 0) {
         
-        imageview.image = [UIImage imageNamed:@"add_img"];
+        imageview.image = [UIImage imageNamed:@"新版发布出租信息_033"];
         UITapGestureRecognizer *tap  = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(addPic)];
         [imageview addGestureRecognizer:tap];
     }
